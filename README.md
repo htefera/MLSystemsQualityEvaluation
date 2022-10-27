@@ -11,7 +11,13 @@ We took an inspiration behavioral model testing from NLP models using
   * Unit testing(Minimum Functionality test)
   * Invaraint tests  
   * Directional expectation tests
-4.  dd 
+  
+# Datasets Used for the Experimentation
+1. Fashion MNIST Dataset The dataset consists of 60,000 training examples and 10,000 test examples of Zalando's article images. 
+2. Titanic Disaster Dataset The dataset describes the survival status of individual passengers as a result of the sinking of the Titanic in early 1912.
+3. Pima Indian Diabetes DatasetThe dataset is originally from the National Institute of Diabetes and Digestive and Kidney Diseases. It is used to determine whether or not a patient has diabetes, based on certain diagnostic measurements.
+
+# Machine Learning Libraries Analyzed
 
 ## Scikit-Learn Classifiers
 **We have choosen 8 classifiers from the Scikit-Learn Machine Learning Library**
@@ -41,4 +47,12 @@ We took an inspiration behavioral model testing from NLP models using
 
 ## Evaluation Metrics
 
-## Set of Tools 
+## Set of Tools and Softwares
+We used the following tools to develop the machine learning prototype 
+1. IDE: Jupyter Notebook
+2. Programming Language : Python
+3. [MLflow: An open source platform for the machine learning lifecycle](https://mlflow.org/)
+   * To track the Hyperparameters, performacne scores, visualizations, latest data used,etc   
+5. [Deepchecks:Testing Machine Learning Models: ](https://deepchecks.com/)
+  * To detect data and model drifts
+7. 
