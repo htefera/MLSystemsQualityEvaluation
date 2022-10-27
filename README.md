@@ -53,11 +53,15 @@ We used three popular classification datasets from Kaggle to evaluate the classi
 
 ## Evaluation Metrics
 We have used the following quantitative and qualitative machine learning properties to evaluate and analyze the various classifiers
-* Performance scores
-* Robustness
-* Reproducibility
-* Explainability(Interpretability) 
-* 
+* **Performance score**
+* **Robustness**
+    * How the model reacts to slight changes in the Input data. It can be achieved how the model reacts to relevant and irrelevant features
+* **Reproducibility**
+    * Model and ML system reproducibility 
+    * MLflow to track experts artifacts  
+* **Explainability(Interpretability)** 
+     * Visualizing ML Models prediction with LIME
+* dd
 
 ## Tools and Softwares
 We used the following tools to develop the machine learning prototype 
