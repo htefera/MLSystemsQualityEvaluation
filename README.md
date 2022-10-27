@@ -11,7 +11,9 @@ We took an inspiration behavioral model testing from NLP models using
   * Unit testing(Minimum Functionality test)
   * Invaraint tests  
   * Directional expectation tests
-  
+3. Model Perfomance Evaluation
+  * We use a tool called Drifter-ML to evalaute performance threshoulds
+4.    
 # Datasets Used for the Experimentation
 1. Fashion MNIST Dataset The dataset consists of 60,000 training examples and 10,000 test examples of Zalando's article images. 
 2. Titanic Disaster Dataset The dataset describes the survival status of individual passengers as a result of the sinking of the Titanic in early 1912.
