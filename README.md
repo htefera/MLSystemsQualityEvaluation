@@ -15,12 +15,13 @@ We took an inspiration behavioral model testing from NLP models using
    * We used a machine learing model valdiation tool ***Drifter-ML*** to evalaute performance threshoulds
 4.    
 # Datasets Used for the Experimentation
+We used three popular classification datasets from Kaggle to evaluate the classification algorithms
 1. **Fashion MNIST Dataset** 
-     * The dataset consists of 60,000 training examples and 10,000 test examples of Zalando's article images. 
+  *  The dataset consists of 60,000 training examples and 10,000 test examples of Zalando's article images. 
 2. **Titanic Disaster Dataset**
   *  The dataset describes the survival status of individual passengers as a result of the sinking of the Titanic in early 1912.
 3. **Pima Indian Diabetes Dataset**
-*   The dataset is originally from the National Institute of Diabetes and Digestive and Kidney Diseases. It is used to determine whether or not a patient has diabetes, based on certain diagnostic measurements.
+  * The dataset is originally from the National Institute of Diabetes and Digestive and Kidney Diseases. It is used to determine whether or not a patient has diabetes, based on certain diagnostic measurements.
 
 # Machine Learning Libraries Considered
 
