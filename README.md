@@ -6,14 +6,16 @@ Evaluating the quality of ML classification algorithms for 17 different classifi
 ## Machine Learning Testing Technique Used
 We took an inspiration behavioral model testing from NLP models using
 
-1.  Model Pre-train tests to ensure data quality
-2.  Model Post-train tests to evaluate the behavior of the trained models
+1.  Model Pre-train tests 
+    * To ensure data quality by writing assertions on various characterstics of the given data
+    * Also we used Deepchecks to detect duplicates, type mismatches, train test distributions,etc 
+3.  Model Post-train tests to evaluate the behavior of the trained models
      * Unit testing(Minimum Functionality test)
      * Invaraint tests  
      * Directional expectation tests
-3. Model Perfomance Evaluation
+4. Model Perfomance Evaluation
    * We used a machine learing model valdiation tool ***Drifter-ML*** to evalaute performance threshoulds
-4.    
+5.    
 # Datasets Used for the Experimentation
 We used three popular classification datasets from Kaggle to evaluate the classification algorithms
 1. **Fashion MNIST Dataset** 
