@@ -8,9 +8,9 @@ We took an inspiration behavioral model testing from NLP models using
 
 1.  Model Pre-train tests to ensure data quality
 2.  Model Post-train tests to evaluate the behavior of the trained models
-   * Unit testing(Minimum Functionality test)
-   * Invaraint tests  
-   * Directional expectation tests
+     * Unit testing(Minimum Functionality test)
+     * Invaraint tests  
+     * Directional expectation tests
 3. Model Perfomance Evaluation
    * We used a machine learing model valdiation tool ***Drifter-ML*** to evalaute performance threshoulds
 4.    
