@@ -67,5 +67,5 @@ We used the following tools to develop the machine learning prototype
 4. [MLflow: An open source platform for the machine learning lifecycle](https://mlflow.org/)
    * To track experiment Hyperparameters, performacne scores, visualizations, latest data used,etc   
 5. [Deepchecks:Testing Machine Learning Models: ](https://deepchecks.com/)
-    * To detect data and model drifts
+    * We used deepchecks to detect data and model drifts such as data leakage between train and test data, train test size ratio, etc
 7. 
