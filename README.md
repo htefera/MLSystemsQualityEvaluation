@@ -46,13 +46,20 @@ We took an inspiration behavioral model testing from NLP models using
 
 
 ## Evaluation Metrics
+We have used the following quantitative and qualitative machine learning properties to evaluate and analyze the various classifiers
+* Performance scores
+* Robustness
+* Reproducibility
+* Explainability(Interpretability) 
+* 
 
-## Set of Tools and Softwares
+## Tools and Softwares
 We used the following tools to develop the machine learning prototype 
-1. IDE: Jupyter Notebook
-2. Programming Language : Python
-3. [MLflow: An open source platform for the machine learning lifecycle](https://mlflow.org/)
-   * To track the Hyperparameters, performacne scores, visualizations, latest data used,etc   
+1. ML Frameworks: Scikit-Learn, Spark ML and Keras 
+2. IDE: Jupyter Notebook
+3. Programming Language : Python
+4. [MLflow: An open source platform for the machine learning lifecycle](https://mlflow.org/)
+   * To track experiment Hyperparameters, performacne scores, visualizations, latest data used,etc   
 5. [Deepchecks:Testing Machine Learning Models: ](https://deepchecks.com/)
-  * To detect data and model drifts
+    * To detect data and model drifts
 7. 
