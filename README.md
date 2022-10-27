@@ -8,11 +8,11 @@ We took an inspiration behavioral model testing from NLP models using
 
 1.  Model Pre-train tests to ensure data quality
 2.  Model Post-train tests to evaluate the behavior of the trained models
-  * Unit testing(Minimum Functionality test)
-  * Invaraint tests  
-  * Directional expectation tests
+   * Unit testing(Minimum Functionality test)
+   * Invaraint tests  
+   * Directional expectation tests
 3. Model Perfomance Evaluation
-  * We use a tool called Drifter-ML to evalaute performance threshoulds
+   * We used a machine learing model valdiation tool ***Drifter-ML*** to evalaute performance threshoulds
 4.    
 # Datasets Used for the Experimentation
 1. **Fashion MNIST Dataset** The dataset consists of 60,000 training examples and 10,000 test examples of Zalando's article images. 
