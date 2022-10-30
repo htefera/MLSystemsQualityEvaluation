@@ -9,15 +9,15 @@ We took an inspiration behavioral model testing from NLP models using
 1.  **Model Pre-train tests** 
     * To ensure data quality by writing assertions on various characterstics of the given data
     * Also we used Deepchecks to detect duplicates, type mismatches, train test distributions,etc 
-2.  Model Post-train tests to evaluate the behavior of the trained models
-     * Unit testing(Minimum Functionality test)
-     * Invaraint tests  
-     * Directional expectation tests
-3. Model Perfomance Evaluation
+2.  **Model Post-train tests** to evaluate the behavior of the trained models
+     * Minimum Functionality test(robustness testing)
+     * Invaraint tests: testing to changes in the less relevant features and see how prediction varies  
+     * Directional expectation tests: testing to changes in relevant features and check on the model prediction reacts 
+3. **Model Perfomance Evaluation**
    * We used a machine learing model valdiation tool ***Drifter-ML*** to evalaute performance threshoulds
-5. Data and Model drifts
-   * We used Deepecheck's full_suite() module to check data and model drifts of the various models and the three datasets choosen for the experimentation 
-7. dd    
+5. **Data and Model drifts using DeepChecks**
+   * We used Deepcheecks for testing the train and test data for various features and for testing the behavior of the trained model 
+   * We used Deepecheck's full_suite() module to check data and model drifts of the various models and the three datasets choosen for the experimentation    
 # Datasets Used for the Experimentation
 We used three popular classification datasets from Kaggle to evaluate the classification algorithms
 1. **Fashion MNIST Dataset** 
