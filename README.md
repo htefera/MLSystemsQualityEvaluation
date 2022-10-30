@@ -27,7 +27,10 @@ We used three popular classification datasets from Kaggle to evaluate the classi
 3. **Pima Indian Diabetes Dataset**
   * The dataset is originally from the National Institute of Diabetes and Digestive and Kidney Diseases. It is used to determine whether or not a patient has diabetes, based on certain diagnostic measurements.
 
-# Machine Learning Libraries Considered
+# Machine Learning Algorithms
+  * We selected 17 algorithms from three ML libraires: Sxikit-learn, Spark ML, and Keras
+  * 8 algorithms from Spark ML and Scikit-learn are choosen for having the same mathemathical formulation and set of hyperparameters
+  * Keras Network Classifier was also considered 
 
 ## Scikit-Learn Classifiers
 **We have choosen 8 classifiers from the Scikit-Learn Machine Learning Library**
