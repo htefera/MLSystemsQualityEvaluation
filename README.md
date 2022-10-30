@@ -71,7 +71,7 @@ We used the following tools to develop the machine learning prototype
 2. IDE: Jupyter Notebook
 3. Programming Language : Python
 4. [MLflow: An open source platform for the machine learning lifecycle](https://mlflow.org/)
-   * To track experiment Hyperparameters, performacne scores, visualizations, latest data used,etc   
+   * To track experiment hyperparameters, performacne scores, visualizations, cleaned and processed data,model pickle files,etc   
 5. [Deepchecks:Testing Machine Learning Models: ](https://deepchecks.com/)
     * We used deepchecks to detect data and model drifts such as data leakage between train and test data, train test size ratio, etc
 7. 
