@@ -1,5 +1,5 @@
 # On The Problem of Software Quality In Machine Learning Systems
-## Abstraact
+## Abstract
 Machine learning quality evaluation for classification models using model behavioral testing to improve data and model quality
 ## Thesis Objective
 Evaluating the quality of ML classification algorithms for 17 different classifiers from Spark ML, Keras, and Scikit-learn to detect or minimize ML bugs at an early stage before a model is deployed. This can be achieved by testing the Code, the Model, and the Data and evaluating the individual classifiers using ML quality attributes using three popular classification datasets 
