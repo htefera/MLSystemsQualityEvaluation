@@ -3,7 +3,18 @@
 Machine learning quality evaluation for classification algorithms with model behavioral testing, which is the state of the solution for model testing to improve data and model quality.
 ## Objective
 Evaluating the quality of ML classification algorithms for 17 different classifiers from Spark ML, Keras, and Scikit-learn to detect or minimize ML bugs at an early stage before a model is deployed. This is accomplished through code testing of the data processing, training, and evaluation method. Model testing to check if what the model has learned is correctly applied. Testing of data by writing pre-train tests before the data feed to the ML models. In addition, to improve the quality of the classifier, evaluate them with selected model quality attributes (properties) on three popular classification datasets from [Kaggle](https://www.kaggle.com/) 
-## Machine Learning Testing Technique Used
+
+## Tools and Software
+We used the following tools to develop the machine-learning prototype 
+1. ML libraries: Scikit-Learn, Spark ML, and Keras 
+2. Development Environment and Programming languages: Jupyter Notebook, Python 
+4. [MLflow: An open-source platform for the machine learning lifecycle](https://mlflow.org/)
+   * To track experiment hyperparameters, performance scores, visualizations, cleaned and processed data, model pickle files, etc   
+5. [Deepchecks: Testing Machine Learning Models: ](https://deepchecks.com/)
+    * We used deepchecks to detect data and model drifts such as data leakage between train and test data, train test size ratio, etc
+7. 
+
+## Machine Learning Testing Technique
 We took significant inspiration from model behavioral testing for NLP models, **Deepchecks**, a tool for assessing data and model quality, and **Drifter-ML**, a novel framework for performance testing of classification models
 
 1.  **Model Pre-train tests** 
@@ -54,13 +65,3 @@ We have used the following quantitative and qualitative machine learning propert
      * LIME makes black box decision-making of a classifier more interpretable 
 * dd
 
-## Tools and Software
-We used the following tools to develop the machine-learning prototype 
-1. ML Frameworks: Scikit-Learn, Spark ML, and Keras 
-2. IDE: Jupyter Notebook
-3. Programming Language: Python
-4. [MLflow: An open-source platform for the machine learning lifecycle](https://mlflow.org/)
-   * To track experiment hyperparameters, performance scores, visualizations, cleaned and processed data, model pickle files, etc   
-5. [Deepchecks: Testing Machine Learning Models: ](https://deepchecks.com/)
-    * We used deepchecks to detect data and model drifts such as data leakage between train and test data, train test size ratio, etc
-7. 
