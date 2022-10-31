@@ -1,23 +1,34 @@
 # On The Problem of Software Quality In Machine Learning Systems
 ## Abstract
-Machine learning quality evaluation for classification models using model behavioral testing to improve data and model quality
-## Thesis Objective
-Evaluating the quality of ML classification algorithms for 17 different classifiers from Spark ML, Keras, and Scikit-learn to detect or minimize ML bugs at an early stage before a model is deployed. This can be achieved by testing the Code, the Model, and the Data and evaluating the individual classifiers using ML quality attributes using three popular classification datasets 
-## Machine Learning Testing Technique Used
-We took inspiration from behavioral model testing from NLP models using
+Machine learning quality evaluation for classification algorithms with model behavioral testing, which is the state of the solution for model testing to improve data and model quality.
+## Objective
+Evaluating the quality of ML classification algorithms for 17 classifiers from Spark ML, Keras, and Scikit-learn to detect or minimize ML bugs at an early stage before a model is deployed. This is accomplished through code testing of the data processing, training, and evaluation method. Model testing to check if what the model has learned is correctly applied. Testing of data by writing pre-train tests before the data feed to the ML models. In addition, to improve the quality of the classifier, evaluate them with selected model quality attributes (properties) on three popular classification datasets from [Kaggle](https://www.kaggle.com/) 
+
+## Tools and Software
+We used the following tools to develop the machine-learning prototype 
+1. ML libraries: Scikit-Learn, Spark ML, and Keras 
+2. Development Environment and Programming languages: Jupyter Notebook, Python 
+4. [MLflow: An open-source platform for the machine learning lifecycle](https://mlflow.org/)
+   * To track experiment hyperparameters, performance scores, visualizations, cleaned and processed data, model pickle files, etc   
+5. [Deepchecks: Testing Machine Learning Models: ](https://deepchecks.com/)
+    * We used deepchecks to detect data and model drifts such as data leakage between train and test data, train test size ratio, etc
+7. 
+
+## Machine Learning Model Testing Technique
+We took significant inspiration from model behavioral testing for NLP models, **Deepchecks**, a tool for assessing data and model quality, and **Drifter-ML**, a novel framework for performance testing of classification models
 
 1.  **Model Pre-train tests** 
-    * To ensure data quality by writing assertions on various characteristics of the given data
-    * Also we used Deepchecks to detect duplicates, type mismatches, train test distributions, etc 
-2.  **Model Post-train tests** to evaluate the behavior of the trained models
-     * Minimum Functionality test(robustness testing)
-     * Invariant tests: testing to changes in the less relevant features and see how prediction varies  
-     * Directional expectation tests: testing for changes in relevant features and checking how the model prediction reacts 
+    * To ensure data quality through writing assert statetment on the various characteristics data features
+    *  We also used **Deepchecks** to detect duplicates, type mismatches, train test distributions, etc 
+2.  **Model Post-train tests**
+     * To evaluate the behavior of the trained models
+     * **Minimum Functionality test** also known as robustness testing
+     * **Invariant tests:** testing to changes in the less relevant features and see how prediction varies  
+     * **Directional expectation tests:** testing for changes in relevant features and checking how the model prediction reacts 
 3. **Model Performance Evaluation**
-   * We used a machine learing model validation tool ***Drifter-ML*** to evaluate performance thresholds
-5. **Data and Model drifts using DeepChecks**
-   * We used Deepcheecks for testing the train and test data for various features and for testing the behavior of the trained model 
-   * We used Deepecheck's full_suite() module to check data and model drifts of the various models and the three datasets chosen for the experimentation    
+   * We used a machine learing model validation tool ***Drifter-ML*** to evaluate performance thresholds of the classification models
+5. **Data and Model validation using DeepChecks**
+   * We used Deepchecks for testing the train and test data for numerous features and various model capabilities. For this task we used Deepecheck's full_suite() testing approach   
 # Datasets Used for the Experimentation
 We used three popular classification datasets from Kaggle to evaluate the classification algorithms
 1. **Fashion MNIST Dataset** 
@@ -28,55 +39,31 @@ We used three popular classification datasets from Kaggle to evaluate the classi
   * The dataset is originally from the National Institute of Diabetes and Digestive and Kidney Diseases. It is used to determine whether or not a patient has diabetes, based on certain diagnostic measurements.
 
 # Machine Learning Algorithms
-  * We selected 17 algorithms from three ML libraries: Sxikit-learn, Spark ML, and Keras
-  * 8 algorithms from Spark ML and Scikit-learn are chosen for having the same mathematical intuition behind and set of hyperparameters
-  * Keras Network Classifier was also considered 
-
-## Scikit-Learn Classifiers
-**We have chosen 8 classifiers from the Scikit-Learn Machine Learning Library**
+  * We have chosen 8 classifiers from the Scikit-Learn , 8 from Spark ML and Keras Network
+  * We select algorithms that are equally present in the libraries. That is they have the same mathematical formulation and the same or similar set of hyperparameters.
+  * Furthermore, the classifiers are popular among different ML users
 1.  LinearSVC
 2.  LogisticRegression
 3.  DecisionTreeClassifier
 4.  RandomForestClassifier
-5.  GaussianNB
-6.  GradientBoostingClassifier
-7.  OneVsRest
+5.  GaussianNB |  NaiveBayes(modeltype='Gussian')
+6.  GradientBoostingClassifier |GBTClassifier
+7.  OneVsRest | OneVsRestClassifier
 8.  MLPClassifier
-## Spark ML classifiers
-**We have chosen 8 classifiers from the Spark ML package**
-1. LinearSVC
-2. LogisticRegression
-3. DecisionTreeClassifier
-4. RandomForestClassifier
-5. NaiveBayes(modeltype='Gussian')
-6. GBTClassifier
-7. OneVsRestClassifier
-8. MLPClassifier
-
-## Keras Classifier 
-**We selected the general Keras classifiers from the Keras Deep Learning Library**
-* Keras Classifier
+9.  Keras Classifier
 
 
-## Evaluation Metrics
+## Model Evaluation Properties
 We have used the following quantitative and qualitative machine learning properties to evaluate and analyze the various classifiers
-* **Performance score**
+* **Performance**
 * **Robustness**
     * How the model reacts to slight changes in the Input data. It can be achieved by how the model reacts to relevant and irrelevant features
 * **Reproducibility**
-    * Model and ML system reproducibility 
-    * MLflow to track experiment artifacts  
+    * Model reproducibility is achieved by adjusting model training parameters and during the train test split process to have representative and reproducible splits for various runs
+
+ * We used MLflow to track experiment artifacts such as performance scores, visualizations, best hyperparameters, model pickle files, and other relevant artifacts to make the entire workflow reproducible.  
 * **Explainability(Interpretability)** 
-     * Visualizing ML Models prediction with LIME
+     * Visualizing individual model prediction using a tool called **LIME**:Local Interpretable Model-agnostic Explanations
+     * LIME makes black box decision-making of a classifier more interpretable 
 * dd
 
-## Tools and Software
-We used the following tools to develop the machine-learning prototype 
-1. ML Frameworks: Scikit-Learn, Spark ML, and Keras 
-2. IDE: Jupyter Notebook
-3. Programming Language: Python
-4. [MLflow: An open-source platform for the machine learning lifecycle](https://mlflow.org/)
-   * To track experiment hyperparameters, performance scores, visualizations, cleaned and processed data, model pickle files, etc   
-5. [Deepchecks: Testing Machine Learning Models: ](https://deepchecks.com/)
-    * We used deepchecks to detect data and model drifts such as data leakage between train and test data, train test size ratio, etc
-7. 
