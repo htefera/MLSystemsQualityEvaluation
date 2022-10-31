@@ -14,7 +14,7 @@ We used the following tools to develop the machine-learning prototype
     * We used deepchecks to detect data and model drifts such as data leakage between train and test data, train test size ratio, etc
 7. 
 
-## Machine Learning Testing Technique
+## Machine Learning Model Testing Technique
 We took significant inspiration from model behavioral testing for NLP models, **Deepchecks**, a tool for assessing data and model quality, and **Drifter-ML**, a novel framework for performance testing of classification models
 
 1.  **Model Pre-train tests** 
