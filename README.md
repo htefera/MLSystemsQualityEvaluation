@@ -4,7 +4,7 @@ Machine learning quality evaluation for classification algorithms with model beh
 ## Objective
 Evaluating the quality of ML classification algorithms for 17 different classifiers from Spark ML, Keras, and Scikit-learn to detect or minimize ML bugs at an early stage before a model is deployed. This is accomplished through code testing of the data processing, training, and evaluation method. Model testing to check if what the model has learned is correctly applied. Testing of data by writing pre-train tests before the data feed to the ML models. In addition, to improve the quality of the classifier, evaluate them with selected model quality attributes (properties) on three popular classification datasets from [Kaggle](https://www.kaggle.com/) 
 ## Machine Learning Testing Technique Used
-We took inspiration from behavioral model testing from NLP models using
+We took significant inspiration from model behavioral testing for NLP models, Deepchecks, a tool for assessing data and model quality, and Drifter-ML, a novel framework for performance testing of classification models
 
 1.  **Model Pre-train tests** 
     * To ensure data quality by writing assertions on various characteristics of the given data
