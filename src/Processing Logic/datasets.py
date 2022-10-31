@@ -7,7 +7,7 @@ from pyspark.ml.feature import VectorAssembler
 
 sc = SparkContext().getOrCreate()
 
-def get_titanic(source="train.csv"):
+def get_titanic(source="titanic.csv"):
 	titanic = pd.read_csv(source)
 	titanic.drop(columns="Cabin", inplace=True)
 	
