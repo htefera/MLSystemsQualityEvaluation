@@ -32,33 +32,20 @@ We used three popular classification datasets from Kaggle to evaluate the classi
   * 8 algorithms from Spark ML and Scikit-learn are chosen for having the same mathematical intuition behind and set of hyperparameters
   * Keras Network Classifier was also considered 
 
-## Scikit-Learn Classifiers
-**We have chosen 8 classifiers from the Scikit-Learn Machine Learning Library**
+## 17 Classifiers
+**We have chosen 8 classifiers from the Scikit-Learn , 8 from Spark ML and Keras Network**
 1.  LinearSVC
 2.  LogisticRegression
 3.  DecisionTreeClassifier
 4.  RandomForestClassifier
-5.  GaussianNB
-6.  GradientBoostingClassifier
-7.  OneVsRest
+5.  GaussianNB |  NaiveBayes(modeltype='Gussian')
+6.  GradientBoostingClassifier |GBTClassifier
+7.  OneVsRest | OneVsRestClassifier
 8.  MLPClassifier
-## Spark ML classifiers
-**We have chosen 8 classifiers from the Spark ML package**
-1. LinearSVC
-2. LogisticRegression
-3. DecisionTreeClassifier
-4. RandomForestClassifier
-5. NaiveBayes(modeltype='Gussian')
-6. GBTClassifier
-7. OneVsRestClassifier
-8. MLPClassifier
-
-## Keras Classifier 
-**We selected the general Keras classifiers from the Keras Deep Learning Library**
-* Keras Classifier
+9.  * Keras Classifier
 
 
-## Evaluation Metrics
+## Model Evaluation Properties
 We have used the following quantitative and qualitative machine learning properties to evaluate and analyze the various classifiers
 * **Performance score**
 * **Robustness**
@@ -67,7 +54,8 @@ We have used the following quantitative and qualitative machine learning propert
     * Model and ML system reproducibility 
     * MLflow to track experiment artifacts  
 * **Explainability(Interpretability)** 
-     * Visualizing ML Models prediction with LIME
+     * Visualizing individual model prediction using a tool called **LIME**:Local Interpretable Model-agnostic Explanations
+     * LIME makes black box decision-making of a classifier more interpretable 
 * dd
 
 ## Tools and Software
