@@ -2,7 +2,7 @@
 ## Abstract
 Machine learning quality evaluation for classification algorithms with model behavioral testing, which is the state of the solution for model testing to improve data and model quality.
 ## Objective
-Evaluating the quality of ML classification algorithms for 17 different classifiers from Spark ML, Keras, and Scikit-learn to detect or minimize ML bugs at an early stage before a model is deployed. This is accomplished through code testing of the data processing, training, and evaluation method. Model testing to check if what the model has learned is correctly applied. Testing of data by writing pre-train tests before the data feed to the ML models. In addition, to improve the quality of the classifier, evaluate them with selected model quality attributes (properties) on three popular classification datasets from [Kaggle](https://www.kaggle.com/) 
+Evaluating the quality of ML classification algorithms for 17 classifiers from Spark ML, Keras, and Scikit-learn to detect or minimize ML bugs at an early stage before a model is deployed. This is accomplished through code testing of the data processing, training, and evaluation method. Model testing to check if what the model has learned is correctly applied. Testing of data by writing pre-train tests before the data feed to the ML models. In addition, to improve the quality of the classifier, evaluate them with selected model quality attributes (properties) on three popular classification datasets from [Kaggle](https://www.kaggle.com/) 
 
 ## Tools and Software
 We used the following tools to develop the machine-learning prototype 
@@ -41,6 +41,7 @@ We used three popular classification datasets from Kaggle to evaluate the classi
 # Machine Learning Algorithms
   * We have chosen 8 classifiers from the Scikit-Learn , 8 from Spark ML and Keras Network
   * We select algorithms that are equally present in the libraries. That is they have the same mathematical formulation and the same or similar set of hyperparameters.
+  * Furthermore, the classifiers are popular among different ML users
 1.  LinearSVC
 2.  LogisticRegression
 3.  DecisionTreeClassifier
