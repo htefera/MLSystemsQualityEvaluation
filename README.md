@@ -28,12 +28,8 @@ We used three popular classification datasets from Kaggle to evaluate the classi
   * The dataset is originally from the National Institute of Diabetes and Digestive and Kidney Diseases. It is used to determine whether or not a patient has diabetes, based on certain diagnostic measurements.
 
 # Machine Learning Algorithms
-  * We selected 17 algorithms from three ML libraries: Sxikit-learn, Spark ML, and Keras
-  * 8 algorithms from Spark ML and Scikit-learn are chosen for having the same mathematical intuition behind and set of hyperparameters
-  * Keras Network Classifier was also considered 
-
-## 17 Classifiers
-**We have chosen 8 classifiers from the Scikit-Learn , 8 from Spark ML and Keras Network**
+  * We have chosen 8 classifiers from the Scikit-Learn , 8 from Spark ML and Keras Network
+  * We select algorithms that are equally present in the libraries. That is they have the same mathematical formulation and the same or similar set of hyperparameters.
 1.  LinearSVC
 2.  LogisticRegression
 3.  DecisionTreeClassifier
@@ -42,7 +38,7 @@ We used three popular classification datasets from Kaggle to evaluate the classi
 6.  GradientBoostingClassifier |GBTClassifier
 7.  OneVsRest | OneVsRestClassifier
 8.  MLPClassifier
-9.  * Keras Classifier
+9.  Keras Classifier
 
 
 ## Model Evaluation Properties
