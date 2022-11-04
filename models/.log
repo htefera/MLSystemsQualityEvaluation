@@ -42,3 +42,184 @@ stop
 e
 
 2022-10-28 22:06:20,662 [85879] DEBUG    py4j.clientserver:512: [JupyterRequire] Answer received: !yv
+2022-11-04 17:59:29,477 [33492] DEBUG    root:75: [JupyterRequire] Loading Jupyter Require extension.
+2022-11-04 17:59:29,480 [33492] DEBUG    root:93: [JupyterRequire] Initializing comms.
+2022-11-04 17:59:29,480 [33492] INFO     root:247: [JupyterRequire] Initializing comms.
+2022-11-04 17:59:29,482 [33492] DEBUG    root:195: [JupyterRequire] Configuration requested: {'paths': {}, 'shim': None}
+2022-11-04 17:59:29,482 [33492] INFO     root:271: [JupyterRequire] Comms have been successfully initialized.
+2022-11-04 17:59:29,482 [33492] DEBUG    root:97: [JupyterRequire] Registering comm targets.
+2022-11-04 17:59:29,607 [33492] DEBUG    py4j.clientserver:501: [JupyterRequire] Command to send: m
+d
+o7
+e
+
+2022-11-04 17:59:29,608 [33492] DEBUG    py4j.clientserver:512: [JupyterRequire] Answer received: !yv
+2022-11-04 17:59:29,608 [33492] DEBUG    py4j.clientserver:501: [JupyterRequire] Command to send: m
+d
+o8
+e
+
+2022-11-04 17:59:29,608 [33492] DEBUG    py4j.clientserver:512: [JupyterRequire] Answer received: !yv
+2022-11-04 17:59:29,609 [33492] DEBUG    py4j.clientserver:501: [JupyterRequire] Command to send: m
+d
+o9
+e
+
+2022-11-04 17:59:29,609 [33492] DEBUG    py4j.clientserver:512: [JupyterRequire] Answer received: !yv
+2022-11-04 17:59:29,609 [33492] DEBUG    py4j.clientserver:501: [JupyterRequire] Command to send: m
+d
+o10
+e
+
+2022-11-04 17:59:29,610 [33492] DEBUG    py4j.clientserver:512: [JupyterRequire] Answer received: !yv
+2022-11-04 17:59:29,610 [33492] DEBUG    py4j.clientserver:501: [JupyterRequire] Command to send: m
+d
+o11
+e
+
+2022-11-04 17:59:29,611 [33492] DEBUG    py4j.clientserver:512: [JupyterRequire] Answer received: !yv
+2022-11-04 17:59:29,611 [33492] DEBUG    py4j.clientserver:501: [JupyterRequire] Command to send: m
+d
+o12
+e
+
+2022-11-04 17:59:29,612 [33492] DEBUG    py4j.clientserver:512: [JupyterRequire] Answer received: !yv
+2022-11-04 17:59:29,612 [33492] DEBUG    py4j.clientserver:501: [JupyterRequire] Command to send: m
+d
+o13
+e
+
+2022-11-04 17:59:29,612 [33492] DEBUG    py4j.clientserver:512: [JupyterRequire] Answer received: !yv
+2022-11-04 17:59:29,612 [33492] DEBUG    py4j.clientserver:501: [JupyterRequire] Command to send: m
+d
+o14
+e
+
+2022-11-04 17:59:29,613 [33492] DEBUG    py4j.clientserver:512: [JupyterRequire] Answer received: !yv
+2022-11-04 17:59:29,613 [33492] DEBUG    py4j.clientserver:501: [JupyterRequire] Command to send: m
+d
+o16
+e
+
+2022-11-04 17:59:29,614 [33492] DEBUG    py4j.clientserver:512: [JupyterRequire] Answer received: !yv
+2022-11-04 17:59:29,614 [33492] DEBUG    py4j.clientserver:501: [JupyterRequire] Command to send: m
+d
+o19
+e
+
+2022-11-04 17:59:29,614 [33492] DEBUG    py4j.clientserver:512: [JupyterRequire] Answer received: !yv
+2022-11-04 17:59:29,614 [33492] DEBUG    py4j.clientserver:501: [JupyterRequire] Command to send: m
+d
+o20
+e
+
+2022-11-04 17:59:29,615 [33492] DEBUG    py4j.clientserver:512: [JupyterRequire] Answer received: !yv
+2022-11-04 17:59:29,615 [33492] DEBUG    py4j.clientserver:501: [JupyterRequire] Command to send: m
+d
+o21
+e
+
+2022-11-04 17:59:29,616 [33492] DEBUG    py4j.clientserver:512: [JupyterRequire] Answer received: !yv
+2022-11-04 17:59:29,616 [33492] DEBUG    py4j.clientserver:501: [JupyterRequire] Command to send: m
+d
+o22
+e
+
+2022-11-04 17:59:29,616 [33492] DEBUG    py4j.clientserver:512: [JupyterRequire] Answer received: !yv
+2022-11-04 17:59:29,617 [33492] DEBUG    py4j.clientserver:501: [JupyterRequire] Command to send: m
+d
+o23
+e
+
+2022-11-04 17:59:29,617 [33492] DEBUG    py4j.clientserver:512: [JupyterRequire] Answer received: !yv
+2022-11-04 17:59:29,618 [33492] DEBUG    py4j.clientserver:501: [JupyterRequire] Command to send: m
+d
+o24
+e
+
+2022-11-04 17:59:29,618 [33492] DEBUG    py4j.clientserver:512: [JupyterRequire] Answer received: !yv
+2022-11-04 17:59:29,618 [33492] DEBUG    py4j.clientserver:501: [JupyterRequire] Command to send: m
+d
+o27
+e
+
+2022-11-04 17:59:29,619 [33492] DEBUG    py4j.clientserver:512: [JupyterRequire] Answer received: !yv
+2022-11-04 17:59:29,619 [33492] DEBUG    py4j.clientserver:501: [JupyterRequire] Command to send: m
+d
+o28
+e
+
+2022-11-04 17:59:29,619 [33492] DEBUG    py4j.clientserver:512: [JupyterRequire] Answer received: !yv
+2022-11-04 17:59:29,620 [33492] DEBUG    py4j.clientserver:501: [JupyterRequire] Command to send: m
+d
+o29
+e
+
+2022-11-04 17:59:29,620 [33492] DEBUG    py4j.clientserver:512: [JupyterRequire] Answer received: !yv
+2022-11-04 17:59:29,620 [33492] DEBUG    py4j.clientserver:501: [JupyterRequire] Command to send: m
+d
+o30
+e
+
+2022-11-04 17:59:29,621 [33492] DEBUG    py4j.clientserver:512: [JupyterRequire] Answer received: !yv
+2022-11-04 17:59:29,621 [33492] DEBUG    py4j.clientserver:501: [JupyterRequire] Command to send: m
+d
+o31
+e
+
+2022-11-04 17:59:29,621 [33492] DEBUG    py4j.clientserver:512: [JupyterRequire] Answer received: !yv
+2022-11-04 17:59:29,621 [33492] DEBUG    py4j.clientserver:501: [JupyterRequire] Command to send: m
+d
+o0
+e
+
+2022-11-04 17:59:29,622 [33492] DEBUG    py4j.clientserver:512: [JupyterRequire] Answer received: !yv
+2022-11-04 17:59:29,622 [33492] DEBUG    py4j.clientserver:501: [JupyterRequire] Command to send: m
+d
+o2
+e
+
+2022-11-04 17:59:29,622 [33492] DEBUG    py4j.clientserver:512: [JupyterRequire] Answer received: !yv
+2022-11-04 17:59:30,779 [33492] DEBUG    pip._internal.vcs.versioncontrol:222: [JupyterRequire] Registered VCS backend: bzr
+2022-11-04 17:59:30,780 [33492] DEBUG    pip._internal.vcs.versioncontrol:222: [JupyterRequire] Registered VCS backend: git
+2022-11-04 17:59:30,780 [33492] DEBUG    pip._internal.vcs.versioncontrol:222: [JupyterRequire] Registered VCS backend: hg
+2022-11-04 17:59:30,781 [33492] DEBUG    pip._internal.vcs.versioncontrol:222: [JupyterRequire] Registered VCS backend: svn
+2022-11-04 17:59:30,877 [33492] INFO     keyring.backend:193: [JupyterRequire] Loading KWallet
+2022-11-04 17:59:30,882 [33492] INFO     keyring.backend:193: [JupyterRequire] Loading SecretService
+2022-11-04 17:59:30,884 [33492] INFO     keyring.backend:193: [JupyterRequire] Loading Windows
+2022-11-04 17:59:30,885 [33492] INFO     keyring.backend:193: [JupyterRequire] Loading chainer
+2022-11-04 17:59:30,885 [33492] INFO     keyring.backend:193: [JupyterRequire] Loading macOS
+2022-11-04 17:59:36,833 [33492] DEBUG    root:75: [JupyterRequire] Loading Jupyter Require extension.
+2022-11-04 17:59:36,833 [33492] DEBUG    root:93: [JupyterRequire] Initializing comms.
+2022-11-04 17:59:36,833 [33492] INFO     root:247: [JupyterRequire] Initializing comms.
+2022-11-04 17:59:36,837 [33492] DEBUG    root:195: [JupyterRequire] Configuration requested: {'paths': {}, 'shim': None}
+2022-11-04 17:59:36,837 [33492] INFO     root:271: [JupyterRequire] Comms have been successfully initialized.
+2022-11-04 17:59:36,838 [33492] DEBUG    root:97: [JupyterRequire] Registering comm targets.
+2022-11-04 17:59:56,890 [33492] DEBUG    parso.python.diff:282: [JupyterRequire] diff parser start
+2022-11-04 17:59:56,890 [33492] DEBUG    parso.python.diff:293: [JupyterRequire] line_lengths old: 12; new: 12
+2022-11-04 17:59:56,891 [33492] DEBUG    parso.python.diff:296: [JupyterRequire] -> code[equal] old[1:11] new[1:11]
+2022-11-04 17:59:56,892 [33492] DEBUG    parso.python.diff:378: [JupyterRequire] copy old[1:10] new[1:10]
+2022-11-04 17:59:56,892 [33492] DEBUG    parso.python.diff:421: [JupyterRequire] parse_part from 11 to 12 (to 11 in part parser)
+2022-11-04 17:59:56,892 [33492] DEBUG    parso.python.diff:296: [JupyterRequire] -> code[replace] old[12:12] new[12:12]
+2022-11-04 17:59:56,892 [33492] DEBUG    parso.python.diff:339: [JupyterRequire] diff parser end
+2022-11-04 17:59:57,569 [33492] DEBUG    parso.python.diff:282: [JupyterRequire] diff parser start
+2022-11-04 17:59:57,570 [33492] DEBUG    parso.python.diff:293: [JupyterRequire] line_lengths old: 12; new: 12
+2022-11-04 17:59:57,570 [33492] DEBUG    parso.python.diff:296: [JupyterRequire] -> code[equal] old[1:11] new[1:11]
+2022-11-04 17:59:57,570 [33492] DEBUG    parso.python.diff:378: [JupyterRequire] copy old[1:10] new[1:10]
+2022-11-04 17:59:57,571 [33492] DEBUG    parso.python.diff:421: [JupyterRequire] parse_part from 11 to 12 (to 11 in part parser)
+2022-11-04 17:59:57,571 [33492] DEBUG    parso.python.diff:296: [JupyterRequire] -> code[replace] old[12:12] new[12:12]
+2022-11-04 17:59:57,572 [33492] DEBUG    parso.python.diff:339: [JupyterRequire] diff parser end
+2022-11-04 17:59:58,767 [33492] DEBUG    parso.python.diff:282: [JupyterRequire] diff parser start
+2022-11-04 17:59:58,768 [33492] DEBUG    parso.python.diff:293: [JupyterRequire] line_lengths old: 12; new: 12
+2022-11-04 17:59:58,768 [33492] DEBUG    parso.python.diff:296: [JupyterRequire] -> code[equal] old[1:11] new[1:11]
+2022-11-04 17:59:58,768 [33492] DEBUG    parso.python.diff:378: [JupyterRequire] copy old[1:10] new[1:10]
+2022-11-04 17:59:58,769 [33492] DEBUG    parso.python.diff:421: [JupyterRequire] parse_part from 11 to 12 (to 11 in part parser)
+2022-11-04 17:59:58,769 [33492] DEBUG    parso.python.diff:296: [JupyterRequire] -> code[replace] old[12:12] new[12:12]
+2022-11-04 17:59:58,770 [33492] DEBUG    parso.python.diff:339: [JupyterRequire] diff parser end
+2022-11-04 17:59:59,464 [33492] DEBUG    parso.python.diff:282: [JupyterRequire] diff parser start
+2022-11-04 17:59:59,465 [33492] DEBUG    parso.python.diff:293: [JupyterRequire] line_lengths old: 12; new: 12
+2022-11-04 17:59:59,465 [33492] DEBUG    parso.python.diff:296: [JupyterRequire] -> code[equal] old[1:11] new[1:11]
+2022-11-04 17:59:59,466 [33492] DEBUG    parso.python.diff:378: [JupyterRequire] copy old[1:10] new[1:10]
+2022-11-04 17:59:59,466 [33492] DEBUG    parso.python.diff:421: [JupyterRequire] parse_part from 11 to 12 (to 11 in part parser)
+2022-11-04 17:59:59,467 [33492] DEBUG    parso.python.diff:296: [JupyterRequire] -> code[replace] old[12:12] new[12:12]
+2022-11-04 17:59:59,467 [33492] DEBUG    parso.python.diff:339: [JupyterRequire] diff parser end
