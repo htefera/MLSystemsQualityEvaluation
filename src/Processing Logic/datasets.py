@@ -1,13 +1,12 @@
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
-from pyspark import SparkContext
 from pyspark.sql import SQLContext
 from pyspark.ml.feature import VectorAssembler
+from sklearn.decomposition import PCA
 
-sc = SparkContext().getOrCreate()
 
-def get_titanic(source="titanic.csv"):
+def get_titanic(source="train.csv"):
 	titanic = pd.read_csv(source)
 	titanic.drop(columns="Cabin", inplace=True)
 	
@@ -52,7 +51,7 @@ def get_diabetes(source="diabetes.csv", seed=0):
 
 def get_fashion(source="fashion-mnist_train.csv"):
 	fashion = pd.read_csv(source)
-	#fashion = fashion[:1000]
+	#fashion = fashion[:500]
 	col = list(fashion.columns)
 	col.remove("label")
 	for i in col:
@@ -69,6 +68,13 @@ def get_fashion(source="fashion-mnist_train.csv"):
 		add = fashion[fashion["label"]==i].drop(columns="label").sum(axis=1)
 		new = pd.concat([new, fashion[fashion["label"]==i][(add < add.quantile(0.99)) & (add > add.quantile(0.01))]], axis=0)
 	fashion = new.sort_index()
+	pca = PCA(n_components=10)
+	new = pca.fit_transform(fashion.drop(columns="label"))
+	new = pd.DataFrame(data = new
+		         , columns = ['C1', 'C2', 'C3', 'C4', 'C5', 'C6', 'C7', 'C8', 'C9', 'C10'], index=fashion.index)
+	for i in new.columns:
+		new[i] = (new[i] - new[i].mean()) / new[i].std()
+	fashion = pd.concat([fashion["label"], new], axis=1)
 	return fashion
 
 def get_sklearn_titanic(source="train.csv", test_size=0.2, seed=0):
@@ -77,7 +83,7 @@ def get_sklearn_titanic(source="train.csv", test_size=0.2, seed=0):
 	titanic.drop(columns="Survived", inplace=True)
 	return train_test_split(titanic, titanic_label, test_size=test_size, random_state=seed)
 	
-def get_pyspark_titanic(source="train.csv", test_size=0.2, seed=0):
+def get_pyspark_titanic(sc, source="train.csv", test_size=0.2, seed=0):
 	titanic = get_titanic(source)
 	titanic = titanic.rename(columns={'Survived': 'label'})
 	sqlContext = SQLContext(sc)
@@ -95,7 +101,7 @@ def get_sklearn_diabetes(source="diabetes.csv", test_size=0.2, seed=0):
 	diabetes.drop(columns="Outcome", inplace=True)
 	return train_test_split(diabetes, diabetes_label, test_size=test_size, random_state=seed)
 	
-def get_pyspark_diabetes(source="diabetes.csv", test_size=0.2, seed=0):
+def get_pyspark_diabetes(sc, source="diabetes.csv", test_size=0.2, seed=0):
 	diabetes = get_diabetes(source)
 	diabetes = diabetes.rename(columns={'Outcome': 'label'})
 	sqlContext = SQLContext(sc)
@@ -113,7 +119,7 @@ def get_sklearn_fashion(source="fashion-mnist_train.csv", test_size=0.2, seed=0)
 	fashion.drop(columns="label", inplace=True)
 	return train_test_split(fashion, fashion_label, test_size=test_size, random_state=seed)
 	
-def get_pyspark_fashion(source="fashion-mnist_train.csv", test_size=0.2, seed=0):
+def get_pyspark_fashion(sc, source="fashion-mnist_train.csv", test_size=0.2, seed=0):
 	fashion = get_fashion(source)
 	sqlContext = SQLContext(sc)
 	data = sqlContext.createDataFrame(fashion)
