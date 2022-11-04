@@ -1,0 +1,153 @@
+2022-11-04 17:58:21,662 [32992] DEBUG    root:75: [JupyterRequire] Loading Jupyter Require extension.
+2022-11-04 17:58:21,662 [32992] DEBUG    root:93: [JupyterRequire] Initializing comms.
+2022-11-04 17:58:21,662 [32992] INFO     root:247: [JupyterRequire] Initializing comms.
+2022-11-04 17:58:21,664 [32992] DEBUG    root:195: [JupyterRequire] Configuration requested: {'paths': {}, 'shim': None}
+2022-11-04 17:58:21,665 [32992] INFO     root:271: [JupyterRequire] Comms have been successfully initialized.
+2022-11-04 17:58:21,665 [32992] DEBUG    root:97: [JupyterRequire] Registering comm targets.
+2022-11-04 17:58:22,001 [32992] DEBUG    py4j.clientserver:501: [JupyterRequire] Command to send: m
+d
+o7
+e
+
+2022-11-04 17:58:22,003 [32992] DEBUG    py4j.clientserver:512: [JupyterRequire] Answer received: !yv
+2022-11-04 17:58:22,003 [32992] DEBUG    py4j.clientserver:501: [JupyterRequire] Command to send: m
+d
+o8
+e
+
+2022-11-04 17:58:22,004 [32992] DEBUG    py4j.clientserver:512: [JupyterRequire] Answer received: !yv
+2022-11-04 17:58:22,004 [32992] DEBUG    py4j.clientserver:501: [JupyterRequire] Command to send: m
+d
+o9
+e
+
+2022-11-04 17:58:22,004 [32992] DEBUG    py4j.clientserver:512: [JupyterRequire] Answer received: !yv
+2022-11-04 17:58:22,005 [32992] DEBUG    py4j.clientserver:501: [JupyterRequire] Command to send: m
+d
+o10
+e
+
+2022-11-04 17:58:22,005 [32992] DEBUG    py4j.clientserver:512: [JupyterRequire] Answer received: !yv
+2022-11-04 17:58:22,006 [32992] DEBUG    py4j.clientserver:501: [JupyterRequire] Command to send: m
+d
+o11
+e
+
+2022-11-04 17:58:22,006 [32992] DEBUG    py4j.clientserver:512: [JupyterRequire] Answer received: !yv
+2022-11-04 17:58:22,007 [32992] DEBUG    py4j.clientserver:501: [JupyterRequire] Command to send: m
+d
+o12
+e
+
+2022-11-04 17:58:22,007 [32992] DEBUG    py4j.clientserver:512: [JupyterRequire] Answer received: !yv
+2022-11-04 17:58:22,008 [32992] DEBUG    py4j.clientserver:501: [JupyterRequire] Command to send: m
+d
+o13
+e
+
+2022-11-04 17:58:22,008 [32992] DEBUG    py4j.clientserver:512: [JupyterRequire] Answer received: !yv
+2022-11-04 17:58:22,008 [32992] DEBUG    py4j.clientserver:501: [JupyterRequire] Command to send: m
+d
+o14
+e
+
+2022-11-04 17:58:22,009 [32992] DEBUG    py4j.clientserver:512: [JupyterRequire] Answer received: !yv
+2022-11-04 17:58:22,009 [32992] DEBUG    py4j.clientserver:501: [JupyterRequire] Command to send: m
+d
+o16
+e
+
+2022-11-04 17:58:22,010 [32992] DEBUG    py4j.clientserver:512: [JupyterRequire] Answer received: !yv
+2022-11-04 17:58:22,010 [32992] DEBUG    py4j.clientserver:501: [JupyterRequire] Command to send: m
+d
+o19
+e
+
+2022-11-04 17:58:22,011 [32992] DEBUG    py4j.clientserver:512: [JupyterRequire] Answer received: !yv
+2022-11-04 17:58:22,011 [32992] DEBUG    py4j.clientserver:501: [JupyterRequire] Command to send: m
+d
+o20
+e
+
+2022-11-04 17:58:22,012 [32992] DEBUG    py4j.clientserver:512: [JupyterRequire] Answer received: !yv
+2022-11-04 17:58:22,012 [32992] DEBUG    py4j.clientserver:501: [JupyterRequire] Command to send: m
+d
+o21
+e
+
+2022-11-04 17:58:22,012 [32992] DEBUG    py4j.clientserver:512: [JupyterRequire] Answer received: !yv
+2022-11-04 17:58:22,013 [32992] DEBUG    py4j.clientserver:501: [JupyterRequire] Command to send: m
+d
+o22
+e
+
+2022-11-04 17:58:22,013 [32992] DEBUG    py4j.clientserver:512: [JupyterRequire] Answer received: !yv
+2022-11-04 17:58:22,014 [32992] DEBUG    py4j.clientserver:501: [JupyterRequire] Command to send: m
+d
+o23
+e
+
+2022-11-04 17:58:22,015 [32992] DEBUG    py4j.clientserver:512: [JupyterRequire] Answer received: !yv
+2022-11-04 17:58:22,015 [32992] DEBUG    py4j.clientserver:501: [JupyterRequire] Command to send: m
+d
+o24
+e
+
+2022-11-04 17:58:22,016 [32992] DEBUG    py4j.clientserver:512: [JupyterRequire] Answer received: !yv
+2022-11-04 17:58:22,016 [32992] DEBUG    py4j.clientserver:501: [JupyterRequire] Command to send: m
+d
+o27
+e
+
+2022-11-04 17:58:22,017 [32992] DEBUG    py4j.clientserver:512: [JupyterRequire] Answer received: !yv
+2022-11-04 17:58:22,017 [32992] DEBUG    py4j.clientserver:501: [JupyterRequire] Command to send: m
+d
+o28
+e
+
+2022-11-04 17:58:22,017 [32992] DEBUG    py4j.clientserver:512: [JupyterRequire] Answer received: !yv
+2022-11-04 17:58:22,018 [32992] DEBUG    py4j.clientserver:501: [JupyterRequire] Command to send: m
+d
+o29
+e
+
+2022-11-04 17:58:22,018 [32992] DEBUG    py4j.clientserver:512: [JupyterRequire] Answer received: !yv
+2022-11-04 17:58:22,019 [32992] DEBUG    py4j.clientserver:501: [JupyterRequire] Command to send: m
+d
+o30
+e
+
+2022-11-04 17:58:22,020 [32992] DEBUG    py4j.clientserver:512: [JupyterRequire] Answer received: !yv
+2022-11-04 17:58:22,020 [32992] DEBUG    py4j.clientserver:501: [JupyterRequire] Command to send: m
+d
+o31
+e
+
+2022-11-04 17:58:22,021 [32992] DEBUG    py4j.clientserver:512: [JupyterRequire] Answer received: !yv
+2022-11-04 17:58:22,021 [32992] DEBUG    py4j.clientserver:501: [JupyterRequire] Command to send: m
+d
+o0
+e
+
+2022-11-04 17:58:22,021 [32992] DEBUG    py4j.clientserver:512: [JupyterRequire] Answer received: !yv
+2022-11-04 17:58:22,022 [32992] DEBUG    py4j.clientserver:501: [JupyterRequire] Command to send: m
+d
+o2
+e
+
+2022-11-04 17:58:22,022 [32992] DEBUG    py4j.clientserver:512: [JupyterRequire] Answer received: !yv
+2022-11-04 17:58:23,300 [32992] DEBUG    pip._internal.vcs.versioncontrol:222: [JupyterRequire] Registered VCS backend: bzr
+2022-11-04 17:58:23,301 [32992] DEBUG    pip._internal.vcs.versioncontrol:222: [JupyterRequire] Registered VCS backend: git
+2022-11-04 17:58:23,302 [32992] DEBUG    pip._internal.vcs.versioncontrol:222: [JupyterRequire] Registered VCS backend: hg
+2022-11-04 17:58:23,302 [32992] DEBUG    pip._internal.vcs.versioncontrol:222: [JupyterRequire] Registered VCS backend: svn
+2022-11-04 17:58:23,411 [32992] INFO     keyring.backend:193: [JupyterRequire] Loading KWallet
+2022-11-04 17:58:23,416 [32992] INFO     keyring.backend:193: [JupyterRequire] Loading SecretService
+2022-11-04 17:58:23,420 [32992] INFO     keyring.backend:193: [JupyterRequire] Loading Windows
+2022-11-04 17:58:23,421 [32992] INFO     keyring.backend:193: [JupyterRequire] Loading chainer
+2022-11-04 17:58:23,421 [32992] INFO     keyring.backend:193: [JupyterRequire] Loading macOS
+2022-11-04 17:58:23,753 [32992] DEBUG    root:75: [JupyterRequire] Loading Jupyter Require extension.
+2022-11-04 17:58:23,753 [32992] DEBUG    root:93: [JupyterRequire] Initializing comms.
+2022-11-04 17:58:23,753 [32992] INFO     root:247: [JupyterRequire] Initializing comms.
+2022-11-04 17:58:23,756 [32992] DEBUG    root:195: [JupyterRequire] Configuration requested: {'paths': {}, 'shim': None}
+2022-11-04 17:58:23,756 [32992] INFO     root:271: [JupyterRequire] Comms have been successfully initialized.
+2022-11-04 17:58:23,756 [32992] DEBUG    root:97: [JupyterRequire] Registering comm targets.
