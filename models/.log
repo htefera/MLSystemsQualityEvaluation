@@ -462,3 +462,13 @@ e
 2022-11-04 18:08:33,412 [33492] DEBUG    parso.python.diff:421: [JupyterRequire] parse_part from 11 to 12 (to 11 in part parser)
 2022-11-04 18:08:33,413 [33492] DEBUG    parso.python.diff:296: [JupyterRequire] -> code[replace] old[12:12] new[12:12]
 2022-11-04 18:08:33,413 [33492] DEBUG    parso.python.diff:339: [JupyterRequire] diff parser end
+2022-11-04 19:37:29,001 [33492] DEBUG    parso.python.diff:282: [JupyterRequire] diff parser start
+2022-11-04 19:37:29,002 [33492] DEBUG    parso.python.diff:293: [JupyterRequire] line_lengths old: 12; new: 29
+2022-11-04 19:37:29,003 [33492] DEBUG    parso.python.diff:296: [JupyterRequire] -> code[equal] old[1:11] new[1:11]
+2022-11-04 19:37:29,003 [33492] DEBUG    parso.python.diff:378: [JupyterRequire] copy old[1:10] new[1:10]
+2022-11-04 19:37:29,004 [33492] DEBUG    parso.python.diff:421: [JupyterRequire] parse_part from 11 to 12 (to 12 in part parser)
+2022-11-04 19:37:29,005 [33492] DEBUG    parso.python.diff:296: [JupyterRequire] -> code[replace] old[12:12] new[12:29]
+2022-11-04 19:37:29,007 [33492] DEBUG    parso.python.diff:421: [JupyterRequire] parse_part from 13 to 29 (to 28 in part parser)
+2022-11-04 19:37:29,008 [33492] DEBUG    parso.python.diff:339: [JupyterRequire] diff parser end
+2022-11-04 19:37:29,065 [33492] DEBUG    parso.cache:152: [JupyterRequire] pickle loaded: /home/haftamu/.local/lib/python3.8/site-packages/jedi/third_party/typeshed/stdlib/3/builtins.pyi
+2022-11-04 19:37:29,108 [33492] DEBUG    parso.cache:152: [JupyterRequire] pickle loaded: /home/haftamu/.local/lib/python3.8/site-packages/jedi/third_party/typeshed/stdlib/3/sys.pyi
