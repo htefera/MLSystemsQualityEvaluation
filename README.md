@@ -1,4 +1,8 @@
-# On The Problem of Software Quality In Machine Learning Systems
+# [BDMA – Big Data Management and Analytics](https://bdma.ulb.ac.be/)
+## [Technische Universität Berlin](https://www.tu.berlin/en/)
+## Master Thesis 
+## On The Problem of Software Quality In Machine Learning Systems
+
 ## Abstract
 Machine learning quality evaluation for classification algorithms with model behavioral testing, which is the state of the solution for model testing to improve data and model quality.
 ## Objective
@@ -62,8 +66,8 @@ We have used the following quantitative and qualitative machine learning propert
     * Model reproducibility is achieved by adjusting model training parameters and during the train test split process to have representative and reproducible splits for various runs
 
  * We used MLflow to track experiment artifacts such as performance scores, visualizations, best hyperparameters, model pickle files, and other relevant artifacts to make the entire workflow reproducible.  
-* **Explainability(Interpretability)** 
+* **Explainability and Interpretability** 
      * Visualizing individual model prediction using a tool called **LIME**:Local Interpretable Model-agnostic Explanations
      * LIME makes black box decision-making of a classifier more interpretable 
-* dd
+
 
