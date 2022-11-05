@@ -22,7 +22,8 @@ We used the following tools to develop the machine-learning prototype
 We took significant inspiration from model behavioral testing for NLP models, **Deepchecks**, a tool for assessing data and model quality, and **Drifter-ML**, a novel framework for performance testing of classification models
 
 1.  **Model Pre-train tests** 
-    * To ensure data quality through writing assert statetment on the various characteristics data features
+    * To ensure data quality through writing assertion on the different feature of three datasets for example, 
+        * For the titanic dataset, the value of the class label must be two **1: Surived** and **0: not surived**
     *  We also used **Deepchecks** to detect duplicates, type mismatches, train test distributions, etc 
 2.  **Model Post-train tests**
      * To evaluate the behavior of the trained models
