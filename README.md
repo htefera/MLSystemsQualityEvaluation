@@ -23,7 +23,8 @@ We took significant inspiration from model behavioral testing for NLP models, **
 
 1.  **Model Pre-train tests** 
     * To ensure data quality through writing assertion on the different feature of three datasets for example, 
-        * For the titanic dataset, the value of the class label must be two **1: Surived** and **0: not surived**
+        * For the titanic dataset, the value of the class label must be two **1: Surived** and **0: not surived** 
+        * The values of the PClass column must be 1, 2 or 3, otherwise it is unkown value   
     *  We also used **Deepchecks** to detect duplicates, type mismatches, train test distributions, etc 
 2.  **Model Post-train tests**
      * To evaluate the behavior of the trained models
