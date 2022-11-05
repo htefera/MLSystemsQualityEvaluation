@@ -8,6 +8,19 @@ from sklearn.decomposition import PCA
 
 def get_titanic(source="train.csv"):
 	titanic = pd.read_csv(source)
+	
+	assert set(titanic.columns) == set(("PassengerId", "Survived", "Pclass", "Name", "Sex", "Age", "SibSp", "Parch", "Ticket", "Fare", "Cabin", "Embarked")), "Unexpected Column(s)"
+	assert titanic[["PassengerId", "Survived", "Pclass", "Name", "Sex", "SibSp", "Parch", "Ticket", "Fare"]].isna().sum().sum() == 0, "Missing values should only be in columns: Age, Cabin and Embarked"
+	assert set(titanic["Sex"].unique()) == set(("female", "male")), "Unknown gender identified"
+	assert set(titanic["Survived"].unique()) == set((0, 1)), "Unknown survived value recieved"
+	assert set(titanic["Embarked"].unique()) == set(("S", "C", "Q", np.nan)), "Unknown mbarked location"
+	assert set(titanic["Pclass"].unique()) == set((1, 2, 3)), "Unknown Pclass value"
+	assert titanic["Age"].min() >= 0, "Age should be positive"
+	assert titanic["SibSp"].min() >= 0, "SibSp should be positive"
+	assert titanic["Fare"].min() >= 0, "Fare should be positive"
+	assert titanic["Parch"].min() >= 0, "Parch should be positive"
+	assert titanic["Parch"].max() <= 6, "Parch should be less than 7"
+	
 	titanic.drop(columns="Cabin", inplace=True)
 	
 	titanic["Age"][titanic["Name"].str.contains("Mr.") & ~titanic["Sex"].str.contains("female") & titanic["Age"].isna()] = \
@@ -39,6 +52,12 @@ def get_titanic(source="train.csv"):
     
 def get_diabetes(source="diabetes.csv", seed=0):
 	diabetes = pd.read_csv(source)
+	
+	assert set(diabetes.columns) == set(("Pregnancies", "Glucose", "BloodPressure", "SkinThickness", "Insulin", "BMI", "DiabetesPedigreeFunction", "Age", "Outcome")), "Unexpected Column(s)"
+	assert diabetes[diabetes.columns].isna().sum().sum() == 0, "Missing values found"
+	assert set(diabetes["Outcome"].unique()) == set((0, 1)), "Unknown outcome value recieved"
+	assert (diabetes[diabetes.columns].min() >= 0).all(), "All values should be positive"
+	
 	col = list(diabetes.columns)
 	col.remove("Outcome")
 	for i in col:
@@ -52,6 +71,12 @@ def get_diabetes(source="diabetes.csv", seed=0):
 def get_fashion(source="fashion-mnist_train.csv"):
 	fashion = pd.read_csv(source)
 	#fashion = fashion[:500]
+	
+	assert fashion[fashion.columns].isna().sum().sum() == 0, "Missing values found"
+	assert set(fashion["label"].unique()) == set((0, 1, 2, 3, 4, 5, 6, 7, 8, 9)), "Unknown label recieved"
+	assert (fashion[fashion.columns].min() >= 0).all(), "All values should be positive"
+	assert (fashion[fashion.columns].max() <= 255).all(), "All values should be less than 256"
+	
 	col = list(fashion.columns)
 	col.remove("label")
 	for i in col:
