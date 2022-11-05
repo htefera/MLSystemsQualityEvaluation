@@ -64,6 +64,7 @@ We have used the following quantitative and qualitative machine learning propert
 * **Performance**
 * **Robustness**
     * How the model reacts to slight changes in the Input data. It can be achieved by how the model reacts to relevant and irrelevant features
+    * Ivariant and Directional expectation tests
 * **Reproducibility**
     * Model reproducibility is achieved by adjusting model training parameters and during the train test split process to have representative and reproducible splits for various runs
 
