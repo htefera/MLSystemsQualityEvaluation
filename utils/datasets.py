@@ -106,7 +106,7 @@ def get_sklearn_titanic(source="train.csv", test_size=0.2, seed=0):
 	titanic = get_titanic(source)
 	titanic_label = titanic["Survived"]
 	titanic.drop(columns="Survived", inplace=True)
-	return train_test_split(titanic, titanic_label, test_size=test_size, random_state=seed)
+	return train_test_split(titanic, titanic_label, test_size=test_size, random_state=seed,stratify=titanic_label)
 	
 def get_pyspark_titanic(sc, source="train.csv", test_size=0.2, seed=0):
 	titanic = get_titanic(source)
@@ -124,7 +124,7 @@ def get_sklearn_diabetes(source="diabetes.csv", test_size=0.2, seed=0):
 	diabetes = get_diabetes(source)
 	diabetes_label = diabetes["Outcome"]
 	diabetes.drop(columns="Outcome", inplace=True)
-	return train_test_split(diabetes, diabetes_label, test_size=test_size, random_state=seed)
+	return train_test_split(diabetes, diabetes_label, test_size=test_size, random_state=seed,stratify=diabetes_label)
 	
 def get_pyspark_diabetes(sc, source="diabetes.csv", test_size=0.2, seed=0):
 	diabetes = get_diabetes(source)
@@ -142,7 +142,7 @@ def get_sklearn_fashion(source="fashion-mnist_train.csv", test_size=0.2, seed=0)
 	fashion = get_fashion(source)
 	fashion_label = fashion["label"]
 	fashion.drop(columns="label", inplace=True)
-	return train_test_split(fashion, fashion_label, test_size=test_size, random_state=seed)
+	return train_test_split(fashion, fashion_label, test_size=test_size, random_state=seed,stratify=fashion_label)
 	
 def get_pyspark_fashion(sc, source="fashion-mnist_train.csv", test_size=0.2, seed=0):
 	fashion = get_fashion(source)
