@@ -63,10 +63,13 @@ We used three popular classification datasets from Kaggle to evaluate the classi
 We have used the following quantitative and qualitative machine learning properties to evaluate and analyze the various classifiers
 * **Performance**
 * **Robustness**
-    * How the model reacts to slight changes in the Input data. It can be achieved by how the model reacts to relevant and irrelevant features
-    * Ivariant and Directional expectation tests
+    * How the model reacts to slight changes in the Input data. 
+        * It can be achieved by how the model reacts to relevant and irrelevant features
+    * Ivariant and directional expectation tests
 * **Reproducibility**
-    * Model reproducibility is achieved by adjusting model training parameters and during the train test split process to have representative and reproducible splits for various runs
+    * Model reproducibility is achieved by adjusting model training parameters 
+    * During the train test split process to have representative and reproducible splits for various runs
+    * Another way to make ML systems reproducible is to use similar development environments, operating systems, ML frameworks, or containers.
 
  * We used MLflow to track experiment artifacts such as performance scores, visualizations, best hyperparameters, model pickle files, and other relevant artifacts to make the entire workflow reproducible.  
 * **Explainability and Interpretability** 
