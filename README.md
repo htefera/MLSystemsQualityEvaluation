@@ -12,7 +12,7 @@ Evaluating the quality of ML classification algorithms for 17 classifiers from S
 We used the following tools to develop the machine-learning prototype 
 1. ML libraries: Scikit-Learn, Spark ML, and Keras 
 2. Development Environment and Programming languages: Jupyter Notebook, Python 
-4. [MLflow: An open-source platform for the machine learning lifecycle](https://mlflow.org/)
+4. [MLflow: An open-source platform for the machine learning lifecycle](https://mlflow.org/)(On Progress)
    *  Track experiment hyperparameters, performance scores, visualizations, processed data, model pickle files, etc   
 5. [Deepchecks: Testing Machine Learning Models: ](https://deepchecks.com/)
     * We used deepchecks to evalaute data quality issues and model performance tests
@@ -63,14 +63,17 @@ We used three popular classification datasets from Kaggle to evaluate the classi
 We have used the following quantitative and qualitative machine learning properties to evaluate and analyze the various classifiers
 * **Performance**
 * **Robustness**
-    * How the model reacts to slight changes in the Input data. It can be achieved by how the model reacts to relevant and irrelevant features
-    * Ivariant and Directional expectation tests
+    * How the model reacts to slight changes in the Input data. 
+        * It can be achieved by how the model reacts to relevant and irrelevant features
+    * Ivariant and directional expectation tests
 * **Reproducibility**
-    * Model reproducibility is achieved by adjusting model training parameters and during the train test split process to have representative and reproducible splits for various runs
+    * Model reproducibility is achieved by adjusting model training parameters 
+    * During the train test split process to have representative and reproducible splits for various runs
+    * Another way to make ML systems reproducible is to use similar development environments, operating systems, ML frameworks, or containers.
 
  * We used MLflow to track experiment artifacts such as performance scores, visualizations, best hyperparameters, model pickle files, and other relevant artifacts to make the entire workflow reproducible.  
 * **Explainability and Interpretability** 
      * Visualizing individual model prediction using a tool called **LIME**:Local Interpretable Model-agnostic Explanations
      * LIME makes black box decision-making of a classifier more interpretable 
 
-
+## Comparative Analysis
