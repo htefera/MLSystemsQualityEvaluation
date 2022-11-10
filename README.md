@@ -26,8 +26,7 @@ We took significant inspiration from model behavioral testing for NLP models, **
         * The values of the PClass column must be 1, 2 or 3, otherwise it is unkown value   
     *  We also used **Deepchecks** to detect duplicates, type mismatches, train test distributions, etc 
 2.  **Model Post-train tests**
-     * To evaluate the behavior of the trained models
-     * **Minimum Functionality test** also known as robustness testing
+     * We employed post-train tests to evaluate the behavior of the trained models
      * **Invariant tests:** testing to changes in the less relevant features and see how prediction varies  
      * **Directional expectation tests:** testing for changes in relevant features and checking how the model prediction reacts 
 3. **Model Performance Evaluation**
