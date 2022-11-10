@@ -77,10 +77,17 @@ We have used the following quantitative and qualitative machine learning propert
      * LIME makes black box decision-making of a classifier more interpretable 
 
 ## Comparative Analysis
+The follosing screenshots are from the experimental analysis of our project
+#### Accuracy of Baseline Models
 ![Accuracy Baseline](Images/accuracybasline.png)
+#### Accuracy of Optimized Models
 ![Accuracy Optimized](Images/accuracyoptimized.png)
+#### Recall of Optimized Models
 ![Recall of Optimized](Images/RecallOpimized.png)
+#### Roc Curves of Opimized Models from sklearn
+
 ![Sklearn RoC Curve Optimized](Images/RoCsklearn.png)
+#### Result of Invariant Directional Expection tests and Performace degrade tests
 ![Invariant directional performance](Images/Invariantdirectionalperformance.png)
 
 
