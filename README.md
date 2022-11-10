@@ -81,6 +81,6 @@ We have used the following quantitative and qualitative machine learning propert
 ![Accuracy Optimized](Images/accuracyoptimized.png)
 ![Recall of Optimized](Images/RecallOpimized.png)
 ![Sklearn RoC Curve Optimized](Images/RoCsklearn.png)
-![Invariant directional performance](Images/Invariant directional performance.png)
+![Invariant directional performance](Images/Invariantdirectionalperformance.png)
 
 
