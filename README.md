@@ -11,12 +11,11 @@ Evaluating the quality of ML classification algorithms for 17 classifiers from S
 ## Tools and Software
 We used the following tools to develop the machine-learning prototype 
 1. ML libraries: Scikit-Learn, Spark ML, and Keras 
-2. Development Environment and Programming languages: Jupyter Notebook, Python 
-4. [MLflow: An open-source platform for the machine learning lifecycle](https://mlflow.org/)(On Progress)
+2. IDE and Programming languages: Jupyter Notebook and Python 
+3. [MLflow: An open-source platform for the machine learning lifecycle](https://mlflow.org/)(On Progress)
    *  Track experiment hyperparameters, performance scores, visualizations, processed data, model pickle files, etc   
-5. [Deepchecks: Testing Machine Learning Models: ](https://deepchecks.com/)
+4. [Deepchecks: Testing Machine Learning Models: ](https://deepchecks.com/)
     * We used deepchecks to evalaute data quality issues and model performance tests
-7. 
 
 ## Machine Learning Model Testing Technique
 We took significant inspiration from model behavioral testing for NLP models, **Deepchecks**, a tool for assessing data and model quality, and **Drifter-ML**, a novel framework for performance testing of classification models
@@ -27,8 +26,7 @@ We took significant inspiration from model behavioral testing for NLP models, **
         * The values of the PClass column must be 1, 2 or 3, otherwise it is unkown value   
     *  We also used **Deepchecks** to detect duplicates, type mismatches, train test distributions, etc 
 2.  **Model Post-train tests**
-     * To evaluate the behavior of the trained models
-     * **Minimum Functionality test** also known as robustness testing
+     * We employed post-train tests to evaluate the behavior of the trained models
      * **Invariant tests:** testing to changes in the less relevant features and see how prediction varies  
      * **Directional expectation tests:** testing for changes in relevant features and checking how the model prediction reacts 
 3. **Model Performance Evaluation**
@@ -77,10 +75,17 @@ We have used the following quantitative and qualitative machine learning propert
      * LIME makes black box decision-making of a classifier more interpretable 
 
 ## Comparative Analysis
+The follosing screenshots are from the experimental analysis of our project
+#### Accuracy of Baseline Models
 ![Accuracy Baseline](Images/accuracybasline.png)
+#### Accuracy of Optimized Models
 ![Accuracy Optimized](Images/accuracyoptimized.png)
+#### Recall of Optimized Models
 ![Recall of Optimized](Images/RecallOpimized.png)
+#### Roc Curves of Opimized Models from sklearn
+
 ![Sklearn RoC Curve Optimized](Images/RoCsklearn.png)
-![Invariant directional performance](Images/Invariant directional performance.png)
+#### Result of Invariant Directional Expection tests and Performace degrade tests
+![Invariant directional performance](Images/Invariantdirectionalperformance.png)
 
 
