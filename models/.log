@@ -472,3 +472,197 @@ e
 2022-11-04 19:37:29,008 [33492] DEBUG    parso.python.diff:339: [JupyterRequire] diff parser end
 2022-11-04 19:37:29,065 [33492] DEBUG    parso.cache:152: [JupyterRequire] pickle loaded: /home/haftamu/.local/lib/python3.8/site-packages/jedi/third_party/typeshed/stdlib/3/builtins.pyi
 2022-11-04 19:37:29,108 [33492] DEBUG    parso.cache:152: [JupyterRequire] pickle loaded: /home/haftamu/.local/lib/python3.8/site-packages/jedi/third_party/typeshed/stdlib/3/sys.pyi
+2022-11-11 14:08:07,775 [183477] DEBUG    root:75: [JupyterRequire] Loading Jupyter Require extension.
+2022-11-11 14:08:07,776 [183477] DEBUG    root:93: [JupyterRequire] Initializing comms.
+2022-11-11 14:08:07,776 [183477] INFO     root:247: [JupyterRequire] Initializing comms.
+2022-11-11 14:08:07,779 [183477] DEBUG    root:195: [JupyterRequire] Configuration requested: {'paths': {}, 'shim': None}
+2022-11-11 14:08:07,779 [183477] INFO     root:271: [JupyterRequire] Comms have been successfully initialized.
+2022-11-11 14:08:07,779 [183477] DEBUG    root:97: [JupyterRequire] Registering comm targets.
+2022-11-11 14:08:08,223 [183477] DEBUG    py4j.clientserver:501: [JupyterRequire] Command to send: m
+d
+o7
+e
+
+2022-11-11 14:08:08,223 [183477] DEBUG    py4j.clientserver:512: [JupyterRequire] Answer received: !yv
+2022-11-11 14:08:08,223 [183477] DEBUG    py4j.clientserver:501: [JupyterRequire] Command to send: m
+d
+o8
+e
+
+2022-11-11 14:08:08,223 [183477] DEBUG    py4j.clientserver:512: [JupyterRequire] Answer received: !yv
+2022-11-11 14:08:08,223 [183477] DEBUG    py4j.clientserver:501: [JupyterRequire] Command to send: m
+d
+o9
+e
+
+2022-11-11 14:08:08,223 [183477] DEBUG    py4j.clientserver:512: [JupyterRequire] Answer received: !yv
+2022-11-11 14:08:08,224 [183477] DEBUG    py4j.clientserver:501: [JupyterRequire] Command to send: m
+d
+o10
+e
+
+2022-11-11 14:08:08,224 [183477] DEBUG    py4j.clientserver:512: [JupyterRequire] Answer received: !yv
+2022-11-11 14:08:08,224 [183477] DEBUG    py4j.clientserver:501: [JupyterRequire] Command to send: m
+d
+o11
+e
+
+2022-11-11 14:08:08,224 [183477] DEBUG    py4j.clientserver:512: [JupyterRequire] Answer received: !yv
+2022-11-11 14:08:08,224 [183477] DEBUG    py4j.clientserver:501: [JupyterRequire] Command to send: m
+d
+o12
+e
+
+2022-11-11 14:08:08,224 [183477] DEBUG    py4j.clientserver:512: [JupyterRequire] Answer received: !yv
+2022-11-11 14:08:08,224 [183477] DEBUG    py4j.clientserver:501: [JupyterRequire] Command to send: m
+d
+o13
+e
+
+2022-11-11 14:08:08,224 [183477] DEBUG    py4j.clientserver:512: [JupyterRequire] Answer received: !yv
+2022-11-11 14:08:08,224 [183477] DEBUG    py4j.clientserver:501: [JupyterRequire] Command to send: m
+d
+o14
+e
+
+2022-11-11 14:08:08,224 [183477] DEBUG    py4j.clientserver:512: [JupyterRequire] Answer received: !yv
+2022-11-11 14:08:08,224 [183477] DEBUG    py4j.clientserver:501: [JupyterRequire] Command to send: m
+d
+o16
+e
+
+2022-11-11 14:08:08,225 [183477] DEBUG    py4j.clientserver:512: [JupyterRequire] Answer received: !yv
+2022-11-11 14:08:08,225 [183477] DEBUG    py4j.clientserver:501: [JupyterRequire] Command to send: m
+d
+o19
+e
+
+2022-11-11 14:08:08,225 [183477] DEBUG    py4j.clientserver:512: [JupyterRequire] Answer received: !yv
+2022-11-11 14:08:08,225 [183477] DEBUG    py4j.clientserver:501: [JupyterRequire] Command to send: m
+d
+o20
+e
+
+2022-11-11 14:08:08,225 [183477] DEBUG    py4j.clientserver:512: [JupyterRequire] Answer received: !yv
+2022-11-11 14:08:08,225 [183477] DEBUG    py4j.clientserver:501: [JupyterRequire] Command to send: m
+d
+o21
+e
+
+2022-11-11 14:08:08,225 [183477] DEBUG    py4j.clientserver:512: [JupyterRequire] Answer received: !yv
+2022-11-11 14:08:08,225 [183477] DEBUG    py4j.clientserver:501: [JupyterRequire] Command to send: m
+d
+o22
+e
+
+2022-11-11 14:08:08,225 [183477] DEBUG    py4j.clientserver:512: [JupyterRequire] Answer received: !yv
+2022-11-11 14:08:08,226 [183477] DEBUG    py4j.clientserver:501: [JupyterRequire] Command to send: m
+d
+o23
+e
+
+2022-11-11 14:08:08,226 [183477] DEBUG    py4j.clientserver:512: [JupyterRequire] Answer received: !yv
+2022-11-11 14:08:08,226 [183477] DEBUG    py4j.clientserver:501: [JupyterRequire] Command to send: m
+d
+o24
+e
+
+2022-11-11 14:08:08,226 [183477] DEBUG    py4j.clientserver:512: [JupyterRequire] Answer received: !yv
+2022-11-11 14:08:08,226 [183477] DEBUG    py4j.clientserver:501: [JupyterRequire] Command to send: m
+d
+o27
+e
+
+2022-11-11 14:08:08,226 [183477] DEBUG    py4j.clientserver:512: [JupyterRequire] Answer received: !yv
+2022-11-11 14:08:08,226 [183477] DEBUG    py4j.clientserver:501: [JupyterRequire] Command to send: m
+d
+o28
+e
+
+2022-11-11 14:08:08,226 [183477] DEBUG    py4j.clientserver:512: [JupyterRequire] Answer received: !yv
+2022-11-11 14:08:08,226 [183477] DEBUG    py4j.clientserver:501: [JupyterRequire] Command to send: m
+d
+o29
+e
+
+2022-11-11 14:08:08,226 [183477] DEBUG    py4j.clientserver:512: [JupyterRequire] Answer received: !yv
+2022-11-11 14:08:08,226 [183477] DEBUG    py4j.clientserver:501: [JupyterRequire] Command to send: m
+d
+o30
+e
+
+2022-11-11 14:08:08,226 [183477] DEBUG    py4j.clientserver:512: [JupyterRequire] Answer received: !yv
+2022-11-11 14:08:08,227 [183477] DEBUG    py4j.clientserver:501: [JupyterRequire] Command to send: m
+d
+o31
+e
+
+2022-11-11 14:08:08,227 [183477] DEBUG    py4j.clientserver:512: [JupyterRequire] Answer received: !yv
+2022-11-11 14:08:08,227 [183477] DEBUG    py4j.clientserver:501: [JupyterRequire] Command to send: m
+d
+o0
+e
+
+2022-11-11 14:08:08,227 [183477] DEBUG    py4j.clientserver:512: [JupyterRequire] Answer received: !yv
+2022-11-11 14:08:08,227 [183477] DEBUG    py4j.clientserver:501: [JupyterRequire] Command to send: m
+d
+o2
+e
+
+2022-11-11 14:08:08,227 [183477] DEBUG    py4j.clientserver:512: [JupyterRequire] Answer received: !yv
+2022-11-11 14:08:08,571 [183477] DEBUG    root:75: [JupyterRequire] Loading Jupyter Require extension.
+2022-11-11 14:08:08,571 [183477] DEBUG    root:93: [JupyterRequire] Initializing comms.
+2022-11-11 14:08:08,571 [183477] INFO     root:247: [JupyterRequire] Initializing comms.
+2022-11-11 14:08:08,574 [183477] DEBUG    root:195: [JupyterRequire] Configuration requested: {'paths': {}, 'shim': None}
+2022-11-11 14:08:08,575 [183477] INFO     root:271: [JupyterRequire] Comms have been successfully initialized.
+2022-11-11 14:08:08,575 [183477] DEBUG    root:97: [JupyterRequire] Registering comm targets.
+2022-11-11 14:12:15,208 [185052] DEBUG    root:75: [JupyterRequire] Loading Jupyter Require extension.
+2022-11-11 14:12:15,209 [185052] DEBUG    root:93: [JupyterRequire] Initializing comms.
+2022-11-11 14:12:15,209 [185052] INFO     root:247: [JupyterRequire] Initializing comms.
+2022-11-11 14:12:15,211 [185052] DEBUG    root:195: [JupyterRequire] Configuration requested: {'paths': {}, 'shim': None}
+2022-11-11 14:12:15,213 [185052] INFO     root:271: [JupyterRequire] Comms have been successfully initialized.
+2022-11-11 14:12:15,223 [185052] DEBUG    root:97: [JupyterRequire] Registering comm targets.
+2022-11-11 14:12:15,757 [185052] DEBUG    py4j.clientserver:501: [JupyterRequire] Command to send: m
+d
+o0
+e
+
+2022-11-11 14:12:15,757 [185052] DEBUG    py4j.clientserver:512: [JupyterRequire] Answer received: !yv
+2022-11-11 14:12:15,758 [185052] DEBUG    py4j.clientserver:501: [JupyterRequire] Command to send: m
+d
+o2
+e
+
+2022-11-11 14:12:15,758 [185052] DEBUG    py4j.clientserver:512: [JupyterRequire] Answer received: !yv
+2022-11-11 14:12:17,145 [185052] DEBUG    root:75: [JupyterRequire] Loading Jupyter Require extension.
+2022-11-11 14:12:17,145 [185052] DEBUG    root:93: [JupyterRequire] Initializing comms.
+2022-11-11 14:12:17,145 [185052] INFO     root:247: [JupyterRequire] Initializing comms.
+2022-11-11 14:12:17,148 [185052] DEBUG    root:195: [JupyterRequire] Configuration requested: {'paths': {}, 'shim': None}
+2022-11-11 14:12:17,149 [185052] INFO     root:271: [JupyterRequire] Comms have been successfully initialized.
+2022-11-11 14:12:17,149 [185052] DEBUG    root:97: [JupyterRequire] Registering comm targets.
+2022-11-11 14:14:10,346 [186226] DEBUG    root:75: [JupyterRequire] Loading Jupyter Require extension.
+2022-11-11 14:14:10,347 [186226] DEBUG    root:93: [JupyterRequire] Initializing comms.
+2022-11-11 14:14:10,347 [186226] INFO     root:247: [JupyterRequire] Initializing comms.
+2022-11-11 14:14:10,350 [186226] DEBUG    root:195: [JupyterRequire] Configuration requested: {'paths': {}, 'shim': None}
+2022-11-11 14:14:10,351 [186226] INFO     root:271: [JupyterRequire] Comms have been successfully initialized.
+2022-11-11 14:14:10,351 [186226] DEBUG    root:97: [JupyterRequire] Registering comm targets.
+2022-11-11 14:14:11,244 [186226] DEBUG    root:75: [JupyterRequire] Loading Jupyter Require extension.
+2022-11-11 14:14:11,244 [186226] DEBUG    root:93: [JupyterRequire] Initializing comms.
+2022-11-11 14:14:11,245 [186226] INFO     root:247: [JupyterRequire] Initializing comms.
+2022-11-11 14:14:11,254 [186226] DEBUG    root:195: [JupyterRequire] Configuration requested: {'paths': {}, 'shim': None}
+2022-11-11 14:14:11,255 [186226] INFO     root:271: [JupyterRequire] Comms have been successfully initialized.
+2022-11-11 14:14:11,255 [186226] DEBUG    root:97: [JupyterRequire] Registering comm targets.
+2022-11-11 14:16:24,630 [185052] DEBUG    root:75: [JupyterRequire] Loading Jupyter Require extension.
+2022-11-11 14:16:24,631 [185052] DEBUG    root:93: [JupyterRequire] Initializing comms.
+2022-11-11 14:16:24,631 [185052] INFO     root:247: [JupyterRequire] Initializing comms.
+2022-11-11 14:16:24,640 [185052] DEBUG    root:195: [JupyterRequire] Configuration requested: {'paths': {}, 'shim': None}
+2022-11-11 14:16:24,641 [185052] INFO     root:271: [JupyterRequire] Comms have been successfully initialized.
+2022-11-11 14:16:24,643 [185052] DEBUG    root:97: [JupyterRequire] Registering comm targets.
+2022-11-11 14:32:12,973 [185052] DEBUG    root:75: [JupyterRequire] Loading Jupyter Require extension.
+2022-11-11 14:32:12,974 [185052] DEBUG    root:93: [JupyterRequire] Initializing comms.
+2022-11-11 14:32:12,974 [185052] INFO     root:247: [JupyterRequire] Initializing comms.
+2022-11-11 14:32:12,980 [185052] DEBUG    root:195: [JupyterRequire] Configuration requested: {'paths': {}, 'shim': None}
+2022-11-11 14:32:12,981 [185052] INFO     root:271: [JupyterRequire] Comms have been successfully initialized.
+2022-11-11 14:32:12,981 [185052] DEBUG    root:97: [JupyterRequire] Registering comm targets.
+2022-11-11 14:32:45,757 [185052] INFO     root:120: [JupyterRequire] Generating grammar tables from /usr/lib/python3.8/lib2to3/Grammar.txt
+2022-11-11 14:32:45,897 [185052] INFO     root:120: [JupyterRequire] Generating grammar tables from /usr/lib/python3.8/lib2to3/PatternGrammar.txt
