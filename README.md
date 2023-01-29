@@ -5,7 +5,7 @@
 
  Supervisor: [Prof. Dr. Volker Markl](https://www.tu.berlin/en/dima/about-us/prof-dr-volker-markl) <br>
 
- Advisor:[Juan Soto](https://www.user.tu-berlin.de/juan.soto/),Academic Director <br>
+ Advisor:[Juan Soto](https://www.user.tu-berlin.de/juan.soto/), (Academic Director) <br>
  
 ## Abstract
 Machine learning quality evaluation for classification algorithms with model behavioral testing, which is the state of the solution for model testing to improve data and model quality.
