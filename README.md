@@ -82,8 +82,8 @@ We took significant inspiration from model behavioral testing for NLP models, **
 9.  Keras Network Classifier
 
 
-## Comparative Analysis
-The follosing screenshots are from the experimental analysis of our project
+##  Result Analysis
+* The following shows the performance of the 17 classifiers using accuracy, recall,precision, and ROC for baseline and optimized models
 #### Accuracy of Baseline Models
 ![Accuracy Baseline](Images/accuracybasline.png)
 #### Accuracy of Optimized Models
