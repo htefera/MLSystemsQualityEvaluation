@@ -94,7 +94,7 @@ We took significant inspiration from model behavioral testing for NLP models, **
 
 ![Sklearn RoC Curve Optimized](Images/RoCsklearn.png)
 
-## PrecisionRecall curve for optimized models
+## PySpark PrecisionRecall curve for optimized models
 
 ![PrecisionRecal Curve](Images/PrecisionRecall.png)
 
