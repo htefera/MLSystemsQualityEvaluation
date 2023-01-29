@@ -17,6 +17,7 @@
    * **Preprocess**: stores code artifacts for explanatory data analysis
    * **Tests**: contain model post train test implementation
    * **Utils**: contain data processing logic and some helper functions for the various models and libraries
+   * **report**: Contain thesis defense presentation
 
 
 ## Abstract
