@@ -59,7 +59,7 @@ We used three popular classification datasets from Kaggle to evaluate the classi
 6.  GradientBoostingClassifier |GBTClassifier
 7.  OneVsRest | OneVsRestClassifier
 8.  MLPClassifier
-9.  Keras Classifier
+9.  Keras Network Classifier
 
 
 ## Model Evaluation Properties
