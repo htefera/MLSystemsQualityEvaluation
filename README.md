@@ -10,12 +10,12 @@
 
 ## Project Structure
 
-**Data: ** contain the datasets for experimentation <br>
+**Data:** contain the datasets for experimentation <br>
 **Eval:** Implement metrics and visualizations for evaluation <br>
-**Models: ** contains implementation logic of classification models <br>
-**Preprocess: ** stores code artifacts for explanatory data analysis <br>
-**Tests: ** contain model post train test implementation <br>
-**Utils: ** contain data processing logic and some helper functions for the various models and libraries <br>
+**Models:** contains implementation logic of classification models <br>
+**Preprocess:** stores code artifacts for explanatory data analysis <br>
+**Tests:** contain model post train test implementation <br>
+**Utils:** contain data processing logic and some helper functions for the various models and libraries <br>
 
 ## Abstract
 In an effort to discover previously undisclosed bugs, minimize possible bugs, and find discrepancies, we designed and implemented a machine-learning application to examine and evaluate seventeen (17) classification algorithms from Scikit-learn, PySpark, and Keras Network. We employed systematic and uniform data preprocessing and model pre-train testing to assert the quality of data using Pandas and Spark DataFrames.Moreover, we implemented model post-train test cases using invariant testing and directional expectation tests to examine how the model reacts to changes in relevant and irrelevant features while keeping the other features constant. From the empirical experiments, no observable differences were found to provide evidence of a previously undiscovered bug. The scikit-learn classification models slightly outperform the corresponding pyspark models, however, the variation in performance of the models from varying frameworks is negligible.<br>
