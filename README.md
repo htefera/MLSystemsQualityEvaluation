@@ -105,4 +105,4 @@ The follosing screenshots are from the experimental analysis of our project
 
 ## Future Work
 
- In the future, I will  implement automatic model bug detection , track model artificats, best hyperparameters, cleaned data, and publish the system online. 
+ In the future, I will  implement automatic model bug detection , track model artificats, best hyperparameters, cleaned data, and publish the system online
