@@ -7,7 +7,16 @@
  Volker Markl is a German computer scientist, database systems researcher, and a full professor <br>
  2. **Advisor**: [Juan Soto](https://www.user.tu-berlin.de/juan.soto/) <br>
  Juan Soto is an Academic Director in the Chair of Database Systems and Information Management at the Technische Universität Berlin
- 
+
+## Project Structure
+
+**Data** contain the datasets for experimentation
+**Eval** Implement metrics and visualizations for evaluation
+**Models** contains implementation logic of classification models
+**Preprocess** stores code artifacts for explanatory data analysis
+**Tests** contain model post train test implementation
+**Utils** contain data processing logic and some helper functions for the various models and libraries
+
 ## Abstract
 In an effort to discover previously undisclosed bugs, minimize possible bugs, and find discrepancies, we designed and implemented a machine-learning application to examine and evaluate seventeen (17) classification algorithms from Scikit-learn, PySpark, and Keras Network. We employed systematic and uniform data preprocessing and model pre-train testing to assert the quality of data using Pandas and Spark DataFrames.Moreover, we implemented model post-train test cases using invariant testing and directional expectation tests to examine how the model reacts to changes in relevant and irrelevant features while keeping the other features constant. From the empirical experiments, no observable differences were found to provide evidence of a previously undiscovered bug. The scikit-learn classification models slightly outperform the corresponding pyspark models, however, the variation in performance of the models from varying frameworks is negligible.<br>
 
@@ -53,7 +62,7 @@ We took significant inspiration from model behavioral testing for NLP models, **
    * For this task we used Deepecheck's full_suite() testing approach   
    
 
-# Machine Learning Algorithms
+# Classification Algorithms
   * We have chosen 8 classifiers from the Scikit-Learn , 8 from Spark ML and Keras Network
   * We select algorithms that are equally present in the libraries. That is they have the same mathematical formulation and the same or similar set of hyperparameters.
   * Furthermore, the classifiers are popular among different ML users
@@ -66,6 +75,7 @@ We took significant inspiration from model behavioral testing for NLP models, **
 7.  OneVsRest | OneVsRestClassifier
 8.  MLPClassifier
 9.  Keras Network Classifier
+
 
 
 ## Model Evaluation Properties
