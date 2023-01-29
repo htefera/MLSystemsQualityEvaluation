@@ -90,13 +90,14 @@ The follosing screenshots are from the experimental analysis of our project
 
 ![Sklearn RoC Curve Optimized](Images/RoCsklearn.png)
 
-## Model Post-Train tests
-
+## Model Post-Train tests using Titanic Datasets
 * The following are successful tests for invariant and directional epection tests , and performace degrade tests
 ![Invariant directional performance](Images/Invariantdirectionalperformance.png)
 
 
-The following are some of the failed tests for the specific classifier
+* The following are some of the failed tests for **GradientBoostingClassifier**, and **LinearSVC** by changing three relevant features 
+* PClass, Gender and Fare are the relevant feature of the Titanic dataset
+
 
 
 ## Future Work
