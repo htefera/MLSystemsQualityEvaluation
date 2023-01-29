@@ -13,10 +13,8 @@ In an effort to discover previously undisclosed bugs, minimize possible bugs, an
 
 ## Objective
 Evaluating the quality of ML classification algorithms for 17 classifiers from Spark ML, Keras, and Scikit-learn to detect or minimize ML bugs at an early stage before a model is deployed. We use concepts from model behavioral testing for NLP models called [Beyond Accuracy: Behavioral Testing of NLP models with CheckList](https://homes.cs.washington.edu/~marcotcr/acl20_checklist.pdf), developed to evaluate a sentiment analysis model beyound the performance scores. <br>
- 
- ### Takeaways 
-* I created a standardized approach for data preparation, model evaluation, and testing for 17 classifiers from Spark ML, Scikit-learn, and Keras. 
-* I developed a uniform way of data preparation, model evaluation,  and model robustness testing using Pandas and Spark DataFrames 
+ * We created a standardized approach for data preparation, model evaluation, and testing for 17 classifiers  
+* We developed a uniform way of data preparation, model evaluation,  and model robustness testing using Pandas and Spark DataFrames 
 * We implemented model post-train tests to ensure learned behavior works as expected. We demonstrated this using invariant testing and directional expec-
 tation tests using the scikit-learn saved models for a representative data instance
 * 
