@@ -3,7 +3,7 @@
 ## Master Thesis 
 ## On The Problem of Software Quality In Machine Learning Systems
 
- **Supervisor**: [Prof. Dr. Volker Markl](https://www.tu.berlin/en/dima/about-us/prof-dr-volker-markl) <br>
+ **Supervisor**: [Prof. Dr. Volker Markl](https://www.bifold.berlin/people/Prof.%20Dr._Volker_Markl.html) <br>
  Volker Markl is a German computer scientist, database systems researcher, and a full professor <br>
  **Advisor**:[Juan Soto](https://www.user.tu-berlin.de/juan.soto/) <br>
  Juan Soto is an Academic Director in the Chair of Database Systems and Information Management at the Technische Universität Berlin
