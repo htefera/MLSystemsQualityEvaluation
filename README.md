@@ -19,6 +19,8 @@ Evaluating the quality of ML classification algorithms for 17 classifiers from S
  ### Takeaways 
 * I created a standardized approach for data preparation, model evaluation, and testing for 17 classifiers from Spark ML, Scikit-learn, and Keras. 
 * I developed a uniform way of data preparation, model evaluation,  and model robustness testing using Pandas and Spark DataFrames 
+* We implemented model post-train tests to ensure learned behavior works as expected. We demonstrated this using invariant testing and directional expec-
+tation tests using the scikit-learn saved models for a representative data instance
 * 
 
 . This is accomplished through code testing of the data processing, training, and evaluation method. Model testing to check if what the model has learned is correctly applied. Testing of data by writing pre-train tests before the data feed to the ML models. In addition, to improve the quality of the classifier, evaluate them with selected model quality attributes (properties) on three popular classification datasets from [Kaggle](https://www.kaggle.com/) 
@@ -105,4 +107,4 @@ The follosing screenshots are from the experimental analysis of our project
 
 ## Future Work
 
- Henceforth, in the future, I will  implement automatic model bug detection , track model artificats and publish the system online. 
+ In the future, I will  implement automatic model bug detection , track model artificats, best hyperparameters, cleaned data, and publish the system online. 
