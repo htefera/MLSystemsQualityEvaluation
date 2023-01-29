@@ -9,9 +9,19 @@
  Juan Soto is an Academic Director in the Chair of Database Systems and Information Management at the Technische Universität Berlin
  
 ## Abstract
-Machine learning quality evaluation for classification algorithms with model behavioral testing, which is the state of the solution for model testing to improve data and model quality.
+
+In an effort to discover previously undisclosed bugs, minimize possible bugs, and find discrepancies, we designed and implemented a machine-learning application to examine and evaluate seventeen classification algorithms from Scikit-learn, PyS- park, and Keras. We employed systematic and uniform data preprocessing and model pre-train testing to assert the quality of data. In addition, we implemented model post-train test cases using invariant testing and directional expectation tests to examine how the model reacts to changes in relevant and irrelevant features while keeping the other features constant. From the empirical experiments, no
+observable differences were found to provide evidence of a previously undiscovered bug. The scikit-learn classification models slightly outperform the corresponding pyspark models, however, the variation in performance of the models from varying frameworks is negligible.<br>
+
 ## Objective
-Evaluating the quality of ML classification algorithms for 17 classifiers from Spark ML, Keras, and Scikit-learn to detect or minimize ML bugs at an early stage before a model is deployed. This is accomplished through code testing of the data processing, training, and evaluation method. Model testing to check if what the model has learned is correctly applied. Testing of data by writing pre-train tests before the data feed to the ML models. In addition, to improve the quality of the classifier, evaluate them with selected model quality attributes (properties) on three popular classification datasets from [Kaggle](https://www.kaggle.com/) 
+Evaluating the quality of ML classification algorithms for 17 classifiers from Spark ML, Keras, and Scikit-learn to detect or minimize ML bugs at an early stage before a model is deployed. We use concepts from model behavioral testing for NLP models called [Beyond Accuracy: Behavioral Testing of NLP models with CheckList](https://homes.cs.washington.edu/~marcotcr/acl20_checklist.pdf), developed to evaluate a sentiment analysis model beyound the performance scores. <br>
+ 
+ ### Takeaways 
+* I created a standardized approach for data preparation, model evaluation, and testing for 17 classifiers from Spark ML, Scikit-learn, and Keras. 
+* I developed a uniform way of data preparation, model evaluation,  and model robustness testing using Pandas and Spark DataFrames 
+* 
+
+. This is accomplished through code testing of the data processing, training, and evaluation method. Model testing to check if what the model has learned is correctly applied. Testing of data by writing pre-train tests before the data feed to the ML models. In addition, to improve the quality of the classifier, evaluate them with selected model quality attributes (properties) on three popular classification datasets from [Kaggle](https://www.kaggle.com/) 
 
 ## Tools and Software
 We used the following tools to develop the machine-learning prototype 
@@ -93,4 +103,6 @@ The follosing screenshots are from the experimental analysis of our project
 #### Result of Invariant Directional Expection tests and Performace degrade tests
 ![Invariant directional performance](Images/Invariantdirectionalperformance.png)
 
+## Future Work
 
+ Henceforth, in the future, I will  implement automatic model bug detection , track model artificats and publish the system online. 
