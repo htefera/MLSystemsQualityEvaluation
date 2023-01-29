@@ -83,14 +83,14 @@ We took significant inspiration from model behavioral testing for NLP models, **
 
 
 ##  Result Analysis
-* The following shows the performance of the 17 classifiers using accuracy, recall,precision, and ROC for baseline and optimized models
-#### Accuracy of Baseline Models
+* The following shows the performance of the 17 classifiers using accuracy, recall,precision, and ROC for baseline and optimized models using the Titanic   dataset
+#### Accuracy of baseline models
 ![Accuracy Baseline](Images/accuracybasline.png)
-#### Accuracy of Optimized Models
+#### Accuracy of optimized Models
 ![Accuracy Optimized](Images/accuracyoptimized.png)
-#### Recall of Optimized Models
+#### Recall of optimized models
 ![Recall of Optimized](Images/RecallOpimized.png)
-#### Roc Curves of Opimized Models from sklearn
+#### Roc curves of opimized models from sklearn
 
 ![Sklearn RoC Curve Optimized](Images/RoCsklearn.png)
 
