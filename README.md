@@ -98,6 +98,9 @@ The follosing screenshots are from the experimental analysis of our project
 * The following are some of the failed tests for **GradientBoostingClassifier**, and **LinearSVC** by changing three relevant features 
 * PClass, Gender and Fare are the relevant feature of the Titanic dataset
 
+![Gender Change for LinearSVC](Images/LinearSVC Gender.png)
+![Passanger class change for GradientBoostingClassifier](Images/GBClasschange.png)
+![Passanger Fare change for GradientBoostingClassifier](Images/GBFarechange.png)
 
 
 ## Future Work
