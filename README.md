@@ -26,6 +26,14 @@ We used the following tools to develop the machine-learning prototype
 4. [Deepchecks: Testing Machine Learning Models: ](https://deepchecks.com/)
     * We used deepchecks to evalaute data quality issues and model performance tests
 
+# Datasets Used for the Experimentation
+We used three popular classification datasets from Kaggle to evaluate the classification algorithms
+1. **Fashion MNIST Dataset** 
+  *  The dataset consists of 60,000 training examples and 10,000 test examples of Zalando's article images. 
+2. **Titanic Disaster Dataset**
+  *  The dataset describes the survival status of individual passengers as a result of the sinking of the Titanic in early 1912.
+3. **Pima Indian Diabetes Dataset**
+  * The dataset is originally from the National Institute of Diabetes and Digestive and Kidney Diseases. It is used to determine whether or not a patient has diabetes, based on certain diagnostic measurements.
 ## Model Testing 
 We took significant inspiration from model behavioral testing for NLP models, **Deepchecks**, a tool for assessing data and model quality, and **Drifter-ML**, a novel framework for performance testing of classification models
 
@@ -41,15 +49,9 @@ We took significant inspiration from model behavioral testing for NLP models, **
 3. **Model Performance Evaluation**
    * We used a machine learing model validation tool ***Drifter-ML*** to evaluate performance thresholds of the classification models
 5. **Data and Model validation using DeepChecks**
-   * We used Deepchecks for testing the train and test data for numerous features and various model capabilities. For this task we used Deepecheck's full_suite() testing approach   
-# Datasets Used for the Experimentation
-We used three popular classification datasets from Kaggle to evaluate the classification algorithms
-1. **Fashion MNIST Dataset** 
-  *  The dataset consists of 60,000 training examples and 10,000 test examples of Zalando's article images. 
-2. **Titanic Disaster Dataset**
-  *  The dataset describes the survival status of individual passengers as a result of the sinking of the Titanic in early 1912.
-3. **Pima Indian Diabetes Dataset**
-  * The dataset is originally from the National Institute of Diabetes and Digestive and Kidney Diseases. It is used to determine whether or not a patient has diabetes, based on certain diagnostic measurements.
+   * We used Deepchecks for testing the train and test data for numerous features and various model capabilities. 
+   * For this task we used Deepecheck's full_suite() testing approach   
+   
 
 # Machine Learning Algorithms
   * We have chosen 8 classifiers from the Scikit-Learn , 8 from Spark ML and Keras Network
