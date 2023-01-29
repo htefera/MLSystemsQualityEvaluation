@@ -10,8 +10,13 @@
 
 ## Project Structure
 
-A  **Data:** contain the datasets for experimentation <br>
-B  **Eval:** Implement metrics and visualizations for evaluation <br>
+<ol type="A">
+  <li>**Data:** contain the datasets for experimentation </li>
+  <li>List 2</li>
+  <li>List 3</li>
+</ol>
+ 
+**Eval:** Implement metrics and visualizations for evaluation <br>
 **Models:** contains implementation logic of classification models <br>
 **Preprocess:** stores code artifacts for explanatory data analysis <br>
 **Tests:** contain model post train test implementation <br>
