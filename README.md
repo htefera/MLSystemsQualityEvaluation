@@ -11,12 +11,12 @@
 ## Project Structure
 
 <ol type="A">
-  <li> **Data:** contain the datasets for experimentation </li>
-  <li> **Eval:** Implement metrics and visualizations for evaluation </li>
-  <li> **Models:** contains implementation logic of classification models</li>
- <li> **Preprocess:** stores code artifacts for explanatory data analysis</li>
- <li> **Tests:** contain model post train test implementation</li>
- <li> **Utils:** contain data processing logic and some helper functions for the various models and libraries</li>
+  <li> Data:contain the datasets for experimentation </li>
+  <li> Eval: Implement metrics and visualizations for evaluation </li>
+  <li> Models: contains implementation logic of classification models</li>
+ <li> Preprocess: stores code artifacts for explanatory data analysis</li>
+ <li> Tests: contain model post train test implementation</li>
+ <li> Utils: contain data processing logic and some helper functions for the various models and libraries</li>
 </ol>
 
 ## Abstract
