@@ -94,12 +94,15 @@ We took significant inspiration from model behavioral testing for NLP models, **
 
 ![Sklearn RoC Curve Optimized](Images/RoCsklearn.png)
 
-## Model Post-Train tests using Titanic Datasets
-* The following are successful tests for invariant and directional epection tests , and performace degrade tests
+## PrecisionRecall curve for optimized models
+
+![PrecisionRecal Curve](Images/PrecisionRecall.png)
+
+## Model Post-Train tests 
+* The following screenshot shows the successful tests for invariant and directional epection tests , and performace degrade tests
 ![Invariant directional performance](Images/Invariantdirectionalperformance.png)
 
-
-* The following are some of the failed tests for **GradientBoostingClassifier**, and **LinearSVC** by changing three relevant features 
+* The following shows some of the failed tests for **GradientBoostingClassifier**, and **LinearSVC** by changing three relevant features 
 * PClass, Gender and Fare are the relevant feature of the Titanic dataset
 
 ![Gender Change for LinearSVC](Images/LinearSVCGender.png)
