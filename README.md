@@ -65,9 +65,8 @@ We took significant inspiration from model behavioral testing for NLP models, **
    
 
 # Classification Algorithms
-  * We have chosen 8 classifiers from the Scikit-Learn , 8 from Spark ML and Keras Network
-  * We select algorithms that are equally present in the libraries. That is they have the same mathematical formulation and the same or similar set of hyperparameters.
-  * Furthermore, the classifiers are popular among different ML users
+  * We have chosen 8 classifiers from the Scikit-Learn, 8 from PySpark and 1 from Keras
+  * We have choosen classification algorithms that are equally present and have the same mathematical formulation with the same or similar set of             hyperparameters.
 1.  LinearSVC
 2.  LogisticRegression
 3.  DecisionTreeClassifier
@@ -77,7 +76,6 @@ We took significant inspiration from model behavioral testing for NLP models, **
 7.  OneVsRest | OneVsRestClassifier
 8.  MLPClassifier
 9.  Keras Network Classifier
-
 
 
 ## Model Evaluation Properties
