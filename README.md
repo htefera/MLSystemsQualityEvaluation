@@ -22,7 +22,7 @@ Evaluating the quality of ML classification algorithms for 17 classifiers from S
 We used the following tools to develop the machine-learning prototype 
 1. Open ML Systems: Scikit-Learn, Spark ML, and Keras 
 2. Deelopment environment and Programming language: Jupyter Notebook and Python 
-3. [MLflow: An open-source platform for the machine learning lifecycle](https://mlflow.org/)(On Progress)
+3. [MLflow: An open-source platform for the machine learning lifecycle](https://mlflow.org/)(on progress)
    *  Track experiment hyperparameters, performance scores, visualizations, processed data, model pickle files, etc   
 4. [Deepchecks: Testing Machine Learning Models: ](https://deepchecks.com/)
     * We used deepchecks to evalaute data quality issues and model performance tests
