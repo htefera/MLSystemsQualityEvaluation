@@ -32,7 +32,7 @@ We used the following tools to develop the machine-learning prototype
 4. [Deepchecks: Testing Machine Learning Models: ](https://deepchecks.com/)
     * We used deepchecks to evalaute data quality issues and model performance tests
 
-## Machine Learning Model Testing Technique
+## Model Testing Technique
 We took significant inspiration from model behavioral testing for NLP models, **Deepchecks**, a tool for assessing data and model quality, and **Drifter-ML**, a novel framework for performance testing of classification models
 
 1.  **Model Pre-train tests** 
