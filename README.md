@@ -89,8 +89,15 @@ The follosing screenshots are from the experimental analysis of our project
 #### Roc Curves of Opimized Models from sklearn
 
 ![Sklearn RoC Curve Optimized](Images/RoCsklearn.png)
-#### Result of Invariant Directional Expection tests and Performace degrade tests
+
+## Model Post-Train tests
+
+* The following are successful tests for invariant and directional epection tests , and performace degrade tests
 ![Invariant directional performance](Images/Invariantdirectionalperformance.png)
+
+
+The following are some of the failed tests for the specific classifier
+
 
 ## Future Work
 
