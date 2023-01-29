@@ -10,8 +10,8 @@
 
 ## Project Structure
 
-<ol type="A">
-  <li>**Data:** contain the datasets for experimentation </li>
+<ol type="A"> **Data**
+  <li>  contain the datasets for experimentation </li>
   <li>List 2</li>
   <li>List 3</li>
 </ol>
