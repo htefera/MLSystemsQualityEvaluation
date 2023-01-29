@@ -3,8 +3,9 @@
 ## Master Thesis 
 ## On The Problem of Software Quality In Machine Learning Systems
 
- Supervisor: Prof. Dr. Volker Markl
- Advisor:Juan Soto(Computer Scientist)
+ Supervisor: [Prof. Dr. Volker Markl](https://www.tu.berlin/en/dima/about-us/prof-dr-volker-markl) <br>
+ Google Scholar:[Volker Markl](https://scholar.google.co.in/citations?user=el2k_oIAAAAJ&hl=en)
+ Advisor:[Juan Soto](Computer Scientist)
  
 ## Abstract
 Machine learning quality evaluation for classification algorithms with model behavioral testing, which is the state of the solution for model testing to improve data and model quality.
