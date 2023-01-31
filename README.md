@@ -113,4 +113,8 @@ We took significant inspiration from model behavioral testing for NLP models, **
 
 ## Future Work
 
- In the future, I will  implement automatic model bug detection , track model artificats, best hyperparameters, cleaned data, and publish the system online
+ In the future, I will
+ * Implement automatic model bug detection , track model artificats, best hyperparameters, visualizations, and data
+ * Implement complete robustness testing for all models
+ * Design and implement metamorphic testing by manipulating various data transformations
+ * Publish the system online to serve as a benchmark 
