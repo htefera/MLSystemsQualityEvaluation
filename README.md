@@ -43,14 +43,17 @@ In our implementation, we answered the following questions.  For the implementat
 * How can we minimize training an erroneous implementation of a model using pre-training tests?
 * How to evaluate and optimize machine learning models to maximize performance?
 * How can we evaluate or ensure the expected behavior of trained classification models?
-## Tools and Open-Source ML Systems for Evaluation 
-
+## Tools and Softwoares 
 We used the following tools to develop the machine-learning prototype 
-1. Open ML Systems: Scikit-Learn, Spark ML, and Keras 
-2. Deelopment environment and Programming language: Jupyter Notebook and Python 
-3. [MLflow: An open-source platform for the machine learning lifecycle](https://mlflow.org/)(on progress)
+1. **Scikit-Learn** is an open-source Python library that implements a range of machine learning algorithms using a unified API. 
+2. **PySpark** is a Python API for machine learning applications built on top of Spark ML
+3. **Keras** is an open-source library that provides a Python interface for ANN. 
+4. **Python** is a high-level, general-purpose, interpreted, interactive and object- oriented programming language designed to be highly readable.
+5. **Jupyter Notebook** is a browser-based tool for interactive development that
+combines explanatory text, mathematics, computations, and their rich media output
+6. [MLflow: An open-source platform for the machine learning lifecycle](https://mlflow.org/)(on progress)
    *  Track experiment hyperparameters, performance scores, visualizations, processed data, model pickle files, etc   
-4. [Deepchecks: Testing Machine Learning Models: ](https://deepchecks.com/)
+7. [Deepchecks: Testing Machine Learning Models: ](https://deepchecks.com/)
     * We used deepchecks to evalaute data quality issues and model performance tests
 
 # Datasets
@@ -62,7 +65,7 @@ We used three popular classification datasets from Kaggle to evaluate the classi
 3. **Pima Indian Diabetes Dataset**
   * The dataset is originally from the National Institute of Diabetes and Digestive and Kidney Diseases. It is used to determine whether or not a patient has diabetes, based on certain diagnostic measurements.
   
-## Methodology
+## Experimental Workflow 
 To answer the questions in the problem statement section, we designed and architected the following methodlogy. 
 
 ![Implementation Architecture](Images/designfinal.png)
@@ -129,13 +132,12 @@ We took significant inspiration from model behavioral testing for NLP models, **
 ![Passanger Fare change for GradientBoostingClassifier](Images/GBFarechange.png)
 
 
-## Summary
-In summary, various features were implemented.
-* We created a standardized approach for data preparation, model evaluation, and model robustness testing using Pandas and Spark DataFrames for 17          classifiers  
+## Conclusion
+We created and constructed a machine-learning application to analyze and assess seventeen (17) classification methods from Scikit-Learn, PySpark, and Keras Network in an effort to detect previously unreported defects, reduce potential bugs, and find discrepancies. In summary, 
+
+* We created a standardized approach for data preparation, model evaluation, and model robustness testing using Pandas and Spark DataFrames for 17          classifiers 
 * We implemented model post-train tests to ensure learned behavior works as expected. We demonstrated this using invariant testing and directional         expectation tests using the scikit-learn saved models for a representative data instance
 * We performed trained model and data drift tests using DeepCheecks
-* Performing various data quality checks by writing assertions before the data feed to the ML models.
-
 ## Future Work
 
  In the future, I will
