@@ -24,10 +24,28 @@
 In an effort to discover previously undisclosed bugs, minimize possible bugs, and find discrepancies, we designed and implemented a machine-learning application to examine and evaluate seventeen (17) classification algorithms from Scikit-learn, PySpark, and Keras Network. We employed systematic and uniform data preprocessing and model pre-train testing to assert the quality of data using Pandas and Spark DataFrames. Furthermore, we implemented model post-train test cases using invariant testing and directional expectation tests to examine how the model reacts to changes in relevant and irrelevant features while keeping the other features constant. From the empirical experiments, no observable differences were found to provide evidence of a previously undiscovered bug. The scikit-learn classification models slightly outperform the corresponding pyspark models, however, the variation in performance of the models from varying frameworks is negligible.
 
 
-## General Objective
-Evaluating the quality of ML classification algorithms for 17 classifiers from Spark ML, Keras, and Scikit-learn to detect or minimize ML bugs at an early stage before a model is deployed. We use concepts from model behavioral testing for NLP models called [Beyond Accuracy: Behavioral Testing of NLP models with CheckList](https://homes.cs.washington.edu/~marcotcr/acl20_checklist.pdf), developed to evaluate a sentiment analysis model beyound the performance scores. <br>
-# Specific objectives 
-Some of the the specific objective of the thesis are:
+# Objective
+The thesis's goal is to investigate, comprehend, and experiment in order to increase user trust in open-source machine learning systems. We examined and experiment to answer the research question.  We evaluated quality of 17 classification algorithmsfrom Spark ML, Keras, and Scikit-learn to detect or minimize ML bugs at an early stage before a model is deployed. 
+
+* How users of machine learning systems, including practitioners, researchers, and members of society, can gain confidence in using and deploying machine learning software And how should open-source ML software systems be tested?
+* How much confidence do users realistically have in publicly-available machine learning systems to build and deploy ML applications using classification algorithms?
+* What is considered adequate when testing machine learning systems? 
+* Who determines what testing is appropriate for a given machine learning software and what the risks arenovel ways for testing machine learning, and the unique challenges associated with them?
+* What makes machine learning systems vastly different from conventional software systems? What are the state-of-the-art solutions for testing machine learning classification models, and how do you apply them in practice?
+
+## Specific problem statement 
+In our implementation, we answered the following questions.  For the implementation we focused one novel ML testing approach. We use concepts from model behavioral testing for NLP models called [Beyond Accuracy: Behavioral Testing of NLP models with CheckList](https://homes.cs.washington.edu/~marcotcr/acl20_checklist.pdf), developed to evaluate a sentiment analysis model beyound the performance scores. <br>
+
+* What are representative examples of frequently occurring bugs in machine learning?
+* What are the ideal data preparation and feature engineering practices for consistent performance across various metrics?
+* What are the latest open-source data and model validation tools?
+* Why are data and model validation so significant in operational ML systems?
+* How can we minimize training an erroneous implementation of a model using pre-training tests?
+* How to evaluate and optimize machine learning models to maximize performance?
+* How can we evaluate or ensure the expected behavior of trained classification models?
+* 
+# System prototype
+
  * We created a standardized approach for data preparation, model evaluation, and model robustness testing using Pandas and Spark DataFrames for 17          classifiers  
 * We implemented model post-train tests to ensure learned behavior works as expected. We demonstrated this using invariant testing and directional         expectation tests using the scikit-learn saved models for a representative data instance
 * We performed trained model and data drift tests using DeepCheecks
