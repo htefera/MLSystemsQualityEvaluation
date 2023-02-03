@@ -30,7 +30,7 @@ Evaluating the quality of ML classification algorithms for 17 classifiers from S
 * We implemented model post-train tests to ensure learned behavior works as expected. We demonstrated this using invariant testing and directional         expectation tests using the scikit-learn saved models for a representative data instance
 * We performed trained model and data drift tests using DeepCheecks
 * Performing various data quality checks by writing assertions before the data feed to the ML models.
-## Tools and Software
+## Tools and Open-Source ML Systems for Evaluation 
 We used the following tools to develop the machine-learning prototype 
 1. Open ML Systems: Scikit-Learn, Spark ML, and Keras 
 2. Deelopment environment and Programming language: Jupyter Notebook and Python 
