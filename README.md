@@ -33,7 +33,7 @@ The thesis's goal is to investigate, comprehend, and experiment in order to incr
 * Who determines what testing is appropriate for a given machine learning software and what the risks arenovel ways for testing machine learning, and the unique challenges associated with them?
 * What makes machine learning systems vastly different from conventional software systems? What are the state-of-the-art solutions for testing machine learning classification models, and how do you apply them in practice?
 
-## Specific problem statement 
+## Problem statement 
 In our implementation, we answered the following questions.  For the implementation we focused one novel ML testing approach. We use concepts from model behavioral testing for NLP models called [Beyond Accuracy: Behavioral Testing of NLP models with CheckList](https://homes.cs.washington.edu/~marcotcr/acl20_checklist.pdf), developed to evaluate a sentiment analysis model beyound the performance scores. <br>
 
 * What are representative examples of frequently occurring bugs in machine learning?
@@ -43,15 +43,8 @@ In our implementation, we answered the following questions.  For the implementat
 * How can we minimize training an erroneous implementation of a model using pre-training tests?
 * How to evaluate and optimize machine learning models to maximize performance?
 * How can we evaluate or ensure the expected behavior of trained classification models?
-* 
-# System prototype
-
- * We created a standardized approach for data preparation, model evaluation, and model robustness testing using Pandas and Spark DataFrames for 17          classifiers  
-* We implemented model post-train tests to ensure learned behavior works as expected. We demonstrated this using invariant testing and directional         expectation tests using the scikit-learn saved models for a representative data instance
-* We performed trained model and data drift tests using DeepCheecks
-* Performing various data quality checks by writing assertions before the data feed to the ML models.
-
 ## Tools and Open-Source ML Systems for Evaluation 
+
 We used the following tools to develop the machine-learning prototype 
 1. Open ML Systems: Scikit-Learn, Spark ML, and Keras 
 2. Deelopment environment and Programming language: Jupyter Notebook and Python 
@@ -69,8 +62,8 @@ We used three popular classification datasets from Kaggle to evaluate the classi
 3. **Pima Indian Diabetes Dataset**
   * The dataset is originally from the National Institute of Diabetes and Digestive and Kidney Diseases. It is used to determine whether or not a patient has diabetes, based on certain diagnostic measurements.
   
-  
 ## Methodology
+To answer the questions in the problem statement section, we designed and architected the following methodlogy. 
 
 ![Implementation Architecture](Images/designfinal.png)
 
@@ -135,6 +128,13 @@ We took significant inspiration from model behavioral testing for NLP models, **
 ![Passanger class change for GradientBoostingClassifier](Images/GBClasschange.png)
 ![Passanger Fare change for GradientBoostingClassifier](Images/GBFarechange.png)
 
+
+## Summary
+In summary, various features were implemented.
+* We created a standardized approach for data preparation, model evaluation, and model robustness testing using Pandas and Spark DataFrames for 17          classifiers  
+* We implemented model post-train tests to ensure learned behavior works as expected. We demonstrated this using invariant testing and directional         expectation tests using the scikit-learn saved models for a representative data instance
+* We performed trained model and data drift tests using DeepCheecks
+* Performing various data quality checks by writing assertions before the data feed to the ML models.
 
 ## Future Work
 
