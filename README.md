@@ -66,7 +66,7 @@ We used three popular classification datasets from Kaggle to evaluate the classi
   * The dataset is originally from the National Institute of Diabetes and Digestive and Kidney Diseases. It is used to determine whether or not a patient has diabetes, based on certain diagnostic measurements.
   
 ## Experimental Workflow 
-To answer the questions in the problem statement section, we designed and architected the following methodlogy. 
+ We designed following machine learning workflow. 
 
 ![Implementation Architecture](Images/designfinal.png)
 
@@ -138,6 +138,7 @@ We created and constructed a machine-learning application to analyze and assess 
 * We created a standardized approach for data preparation, model evaluation, and model robustness testing using Pandas and Spark DataFrames for 17          classifiers 
 * We implemented model post-train tests to ensure learned behavior works as expected. We demonstrated this using invariant testing and directional         expectation tests using the scikit-learn saved models for a representative data instance
 * We performed trained model and data drift tests using DeepCheecks
+* From the empirical experiments, no observable differences were found to provide evidence of a previously undiscovered bug, and also the variation in performance of the models from varying frameworks is negligible.
 ## Future Work
 
  In the future, I will
