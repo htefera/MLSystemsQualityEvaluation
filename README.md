@@ -142,8 +142,8 @@ We created and constructed a machine-learning application to analyze and assess 
 * From the empirical experiments, no observable differences were found to provide evidence of a previously undiscovered bug, and also the variation in performance of the models from varying frameworks is negligible.
 ## Future Work
 
- In the future, I will
+ In the future, we will
  * Implement automatic model bug detection , track model artificats, best hyperparameters, visualizations, and data
  * Implement complete robustness testing for all models
- * Design and implement metamorphic testing by manipulating various data transformations
+ * Design and implement metamorphic testing using metamorphic relations. The metamorphic relations can be designed by performing data transformations on     the base data.
  * Publish the system online to serve as a benchmark 
