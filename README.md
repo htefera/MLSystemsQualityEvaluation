@@ -122,6 +122,7 @@ We took significant inspiration from model behavioral testing for NLP models, **
 
 ## Model Post-Train tests 
 * The following screenshot shows the successful tests for invariant and directional epection tests , and performace degrade tests
+* The three tests are helpful to ensure the robustness of the models before they get deployed. 
 ![Invariant directional performance](Images/Invariantdirectionalperformance.png)
 
 * The following shows some of the failed tests for **GradientBoostingClassifier**, and **LinearSVC** by changing three relevant features 
