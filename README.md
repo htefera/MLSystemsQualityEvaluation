@@ -25,7 +25,7 @@ In an effort to discover previously undisclosed bugs, minimize possible bugs, an
 
 
 # Objective
-The thesis's goal is to investigate, comprehend, and experiment in order to increase user trust in open-source machine learning systems. We examined and experiment to answer the research question.  We evaluated quality of 17 classification algorithmsfrom Spark ML, Keras, and Scikit-learn to detect or minimize ML bugs at an early stage before a model is deployed. 
+The thesis objecitve is to answer the following question to build user trust in using open-source ML systems. 
 
 * How users of machine learning systems, including practitioners, researchers, and members of society, can gain confidence in using and deploying machine learning software And how should open-source ML software systems be tested?
 * How much confidence do users realistically have in publicly-available machine learning systems to build and deploy ML applications using classification algorithms?
