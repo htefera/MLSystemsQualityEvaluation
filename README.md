@@ -35,7 +35,7 @@ The thesis objecitve is to answer the following question to build user trust in 
 * What are the novel ways for testing open-source machine learning systems? 
 
 ## Problem statement 
-For the implementation we focused on model behavioral testing in order to test ML models. We use concepts from model behavioral testing for NLP models called [Beyond Accuracy: Behavioral Testing of NLP models with CheckList](https://homes.cs.washington.edu/~marcotcr/acl20_checklist.pdf), developed to evaluate a sentiment analysis model beyound the performance scores. <br>
+For the implementation we focused on model behavioral testing in order to test ML models. We use concepts from model behavioral testing for NLP models called [Beyond Accuracy: Behavioral Testing of NLP models with CheckList](https://homes.cs.washington.edu/~marcotcr/acl20_checklist.pdf), developed to evaluate a sentiment analysis model beyound the performance scores. From the developed prototype, we answered the following questions <br>
 
 * What are representative examples of frequently occurring bugs in machine learning?
 * What are the ideal data preparation and feature engineering practices for consistent performance across various metrics?
