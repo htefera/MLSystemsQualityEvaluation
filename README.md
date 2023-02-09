@@ -55,7 +55,7 @@ combines explanatory text, mathematics, computations, and their rich media outpu
 6. [MLflow: An open-source platform for the machine learning lifecycle](https://mlflow.org/)(on progress)
    *  Track experiment hyperparameters, performance scores, visualizations, processed data, model pickle files, etc   
 7. [Deepchecks: Testing Machine Learning Models: ](https://deepchecks.com/)
-    * We used deepchecks to evalaute data quality issues and model performance tests
+    * **deepchecks** was employed to evalaute data quality and model performance caused by **data** and **concept** drifts 
 
 # Datasets
 We used three popular classification datasets from Kaggle to evaluate the classification algorithms
