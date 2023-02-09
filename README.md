@@ -67,7 +67,7 @@ We used three popular classification datasets from Kaggle to evaluate the classi
   * The dataset is originally from the National Institute of Diabetes and Digestive and Kidney Diseases. It is used to determine whether or not a patient has diabetes, based on certain diagnostic measurements.
   
 ## Experimental Workflow 
- We designed following machine learning workflow. 
+ To anser the above question, we designed the following end-to-end workflow. 
 
 ![Implementation Architecture](Images/designfinal.png)
 
