@@ -88,8 +88,7 @@ We took significant inspiration from model behavioral testing for NLP models, **
    * We used a machine learing model validation tool ***Drifter-ML*** to evaluate performance thresholds of the classification models
 5. **Data and Model validation using DeepChecks**
    * We used Deepchecks for testing the train and test data for numerous features and various model capabilities. 
-   * For this task we used Deepecheck's full_suite() testing approach   
-   
+   * We used Deepecheck's **full_suite()** method by first tranforming the train and test sets into DeepChecks comptabile **Datasets**     
 
 # Classification Algorithms
   * We have chosen 8 classifiers from the Scikit-Learn, 8 from PySpark and 1 from Keras
