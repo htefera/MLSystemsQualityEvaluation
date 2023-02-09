@@ -32,9 +32,10 @@ The thesis objecitve is to answer the following question to build user trust in 
 * What is considered adequate when testing machine learning systems? 
 * Who determines what testing is appropriate for a given machine learning software and what the risks arenovel ways for testing machine learning, and the unique challenges associated with them?
 * What makes machine learning systems vastly different from conventional software systems? What are the state-of-the-art solutions for testing machine learning classification models, and how do you apply them in practice?
+* What are the novel ways for testing open-source machine learning systems? 
 
 ## Problem statement 
-In our implementation, we answered the following questions.  For the implementation we focused one novel ML testing approach. We use concepts from model behavioral testing for NLP models called [Beyond Accuracy: Behavioral Testing of NLP models with CheckList](https://homes.cs.washington.edu/~marcotcr/acl20_checklist.pdf), developed to evaluate a sentiment analysis model beyound the performance scores. <br>
+For the implementation we focused on model behavioral testing in order to test ML models. We use concepts from model behavioral testing for NLP models called [Beyond Accuracy: Behavioral Testing of NLP models with CheckList](https://homes.cs.washington.edu/~marcotcr/acl20_checklist.pdf), developed to evaluate a sentiment analysis model beyound the performance scores. <br>
 
 * What are representative examples of frequently occurring bugs in machine learning?
 * What are the ideal data preparation and feature engineering practices for consistent performance across various metrics?
