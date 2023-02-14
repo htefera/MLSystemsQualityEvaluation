@@ -20,12 +20,9 @@
    * **Docreport**: contain presentation slide for defense and thesis documentation
 
 
-## Abstract
-In an effort to discover previously undisclosed bugs, minimize possible bugs, and find discrepancies, we designed and implemented an end-to-end machine-learning application to examine seventeen (17) classification algorithms from Scikit-learn, PySpark, and Keras Network. We employed systematic and uniform data preprocessing and model pre-train testing to assert the quality of data using Pandas and Spark DataFrames. Furthermore, we implemented model post-train test cases using invariant testing and directional expectation tests to examine how the model reacts to changes in relevant and irrelevant features while keeping the other features constant. From the empirical experiments, no observable differences were found to provide evidence of a previously undiscovered bug. The variation in performance of the models from varying frameworks is negligible.
-
 
 # Objective
-The thesis objecitve is to answer the following question to build user trust in using open-source ML systems. 
+The thesis objecitve is to answer the following question to build user trust in using open-source machine learning systems. 
 
 * How users of machine learning systems, including practitioners, researchers, and members of society, can gain confidence in using and deploying machine learning software And how should open-source ML software systems be tested?
 * How much confidence do users realistically have in publicly-available machine learning systems to build and deploy ML applications using classification algorithms?
@@ -133,13 +130,20 @@ We took significant inspiration from model behavioral testing for NLP models, **
 ![Passanger Fare change for GradientBoostingClassifier](Images/GBFarechange.png)
 
 
-## Conclusion
+## Summary
 We created and constructed a machine-learning application to analyze and assess seventeen (17) classification methods from Scikit-Learn, PySpark, and Keras Network in an effort to detect previously unreported defects, reduce potential bugs, and find discrepancies. In summary, 
 
 * We created a standardized approach for data preparation, model evaluation, and model robustness testing using Pandas and Spark DataFrames for 17          classifiers 
 * We implemented model post-train tests to ensure learned behavior works as expected. We demonstrated this using invariant testing and directional         expectation tests using the scikit-learn saved models for a representative data instance
 * We performed trained model and data drift tests using DeepCheecks
 * From the empirical experiments, no observable differences were found to provide evidence of a previously undiscovered bug, and also the variation in performance of the models from varying frameworks is negligible.
+
+## Conclusion
+
+In an effort to discover previously undisclosed bugs, minimize possible bugs, and find discrepancies, we designed and implemented an end-to-end machine-learning application to examine seventeen (17) classification algorithms from Scikit-learn, PySpark, and Keras Network. We employed systematic and uniform data preprocessing and model pre-train testing to assert the quality of data using Pandas and Spark DataFrames. <br>
+
+Furthermore, we implemented model post-train test cases using invariant testing and directional expectation tests to examine how the model reacts to changes in relevant and irrelevant features while keeping the other features constant. From the empirical experiments, no observable differences were found to provide evidence of a previously undiscovered bug. The variation in performance of the models from varying frameworks is negligible.
+
 ## Future Work
 
  In the future, we will
