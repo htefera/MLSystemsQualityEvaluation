@@ -138,13 +138,12 @@ We created and constructed a machine-learning application to analyze and assess 
 * We performed trained model and data drift tests using DeepCheecks
 * From the empirical experiments, no observable differences were found to provide evidence of a previously undiscovered bug, and also the variation in performance of the models from varying frameworks is negligible.
 
-## Conclusion
+## Conclusion and future work
 
 In an effort to discover previously undisclosed bugs, minimize possible bugs, and find discrepancies, we designed and implemented an end-to-end machine-learning application to examine seventeen (17) classification algorithms from Scikit-learn, PySpark, and Keras Network. We employed systematic and uniform data preprocessing and model pre-train testing to assert the quality of data using Pandas and Spark DataFrames. <br>
 
-Furthermore, we implemented model post-train test cases using invariant testing and directional expectation tests to examine how the model reacts to changes in relevant and irrelevant features while keeping the other features constant. From the empirical experiments, no observable differences were found to provide evidence of a previously undiscovered bug. The variation in performance of the models from varying frameworks is negligible.
+Furthermore, we implemented model post-train test cases using invariant testing and directional expectation tests to examine how the model reacts to changes in relevant and irrelevant features while keeping the other features constant. From the empirical experiments, no observable differences were found to provide evidence of a previously undiscovered bug. The variation in performance of the models from varying frameworks is negligible. <br>
 
-## Future Work
 
  In the future, we will
  * Implement automatic model bug detection , track model artificats, best hyperparameters, visualizations, and data
