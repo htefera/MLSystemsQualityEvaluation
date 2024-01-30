@@ -15,8 +15,8 @@
    * **Eval:** Contain implementation for  metrics and visualizations for evaluation
    * **Models**: contains implementation logic of classification models
    * **Preprocess**: stores code artifacts for explanatory data analysis
-   * **Tests**: contain model post-train test implementation
-   * **Utils**: Data processing logic and some helper functions 
+   * **Tests**:  Test cases
+   * **Utils**: Data processing logic and helper functions 
    * **Docreport**: Thesis defense slides and  documentation
 
 
