@@ -49,7 +49,7 @@ combines explanatory text, mathematics, computations, and their rich media outpu
 8. **LaTeX**: LaTeX is a typesetting system that allows users to create high-quality documents, particularly suited for scientific and mathematical content, using a markup language.
 9. **Slack**: Slack is a messaging platform designed for team collaboration, providing channels for communication, file sharing, and integration with various tools and services.
 10. **Git**:Git is a distributed version control system that facilitates collaborative software development by tracking changes in source code during the development process.
-11. ***GitHub** is a web-based platform for version control and collaborative software development, providing hosting, code review, and collaboration features for Git repositories.
+11. **GitHub** is a web-based platform for version control and collaborative software development, providing hosting, code review, and collaboration features for Git repositories.
 
  
 
